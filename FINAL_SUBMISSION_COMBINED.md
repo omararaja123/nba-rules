@@ -82,6 +82,57 @@ Total: +150% improvement
 
 ## 🏛️ System Architecture
 
+### High-Level Application Stack
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                  Streamlit Web Interface                     │
+│  (Chat UI, Session State, Demo Questions, Source Panel)     │
+└──────────────────────────┬──────────────────────────────────┘
+                           │
+┌──────────────────────────▼──────────────────────────────────┐
+│              Application Logic Layer (app.py)               │
+│  • Chat input/output handling                               │
+│  • Session state management                                 │
+│  • Caching mechanism                                        │
+└──────────────────────────┬──────────────────────────────────┘
+                           │
+        ┌──────────────────┴──────────────────┐
+        │                                     │
+┌───────▼────────────────────┐   ┌───────────▼─────────────┐
+│   Retriever Module          │   │  Generator Module       │
+│  (retriever.py)             │   │ (generator.py)          │
+│  • NBARetriever class       │   │ • AnswerGenerator       │
+│  • Hybrid search logic      │   │ • Claude API client     │
+│  • Top-3 ranking           │   │ • Citation extraction   │
+└───────┬────────────────────┘   └───────────┬─────────────┘
+        │                                     │
+        │          Orchestration Options:    │
+        │          ┌─────────────────────────┴──┐
+        │          │                            │
+        ├──────────►  Direct Calls (Current)    │
+        │          │  (Simple, fast)            │
+        │          │                            │
+        └──────────►  LangChain/LangGraph       │
+                   │  (Alternative)             │
+                   │  (Structured, composable)  │
+                   └────────────────────────────┘
+```
+
+### Current Implementation: Direct Calls
+
+The Streamlit app (`app.py`) directly calls the retriever and generator modules without LangChain/LangGraph:
+- **Pros**: Simple, fast, minimal dependencies
+- **Cons**: Less composable, manual orchestration
+
+**Alternative Path**: LangChain/LangGraph
+
+The `phase4_langgraph_rag.py` implements the full LangGraph orchestration:
+- **Pros**: Structured workflow, state management, reusable components
+- **Cons**: More complex, additional dependencies
+
+---
+
 ### Retrieval Pipeline (End-to-End)
 
 ```
@@ -150,6 +201,54 @@ Why 0.2 weight? Tested 0.1-0.5 empirically. At 0.2: good balance (filters noise,
 - Sorted by final_score descending
 - Metadata: rule_number, rule_title, section_title, page_number, chunk_id
 - Rationale: Multiple options let LLM reason and choose best
+
+### LangGraph Orchestration (Alternative Implementation)
+
+For structured workflow management, `phase4_langgraph_rag.py` uses **LangGraph** to define a directed acyclic graph (DAG) of operations:
+
+**LangGraph Node Structure:**
+```
+┌──────────────┐
+│  Retrieve    │  → Execute retrieval pipeline
+│              │     Returns: top-3 chunks + metadata
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│  Format      │  → Format chunks as LLM context
+│  Context     │     Returns: formatted context string
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│  Generate    │  → Call Claude with context
+│  Answer      │     Returns: answer text
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│  Evaluate    │  → Check answer quality
+│              │     Returns: quality metrics
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│  Format      │  → Add citations and metadata
+│  Response    │     Returns: final response object
+└──────────────┘
+```
+
+**Why LangGraph for Production:**
+- **State Management**: Each node maintains state between steps
+- **Error Handling**: Built-in recovery and retry mechanisms
+- **Monitoring**: Track execution flow and performance
+- **Composition**: Reuse workflow for different applications
+- **Testing**: Easier to unit-test individual nodes
+
+**Current App Choice (Direct Calls):**
+The Streamlit app uses direct calls for simplicity and speed. This works well for the interactive demo but can be switched to LangGraph for production deployments without changing business logic.
+
+---
 
 ### Generation Pipeline
 
