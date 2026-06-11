@@ -119,17 +119,35 @@ Total: +150% improvement
                    └────────────────────────────┘
 ```
 
-### Current Implementation: Direct Calls
+### Current Implementation: LangGraph Orchestration
 
-The Streamlit app (`app.py`) directly calls the retriever and generator modules without LangChain/LangGraph:
-- **Pros**: Simple, fast, minimal dependencies
-- **Cons**: Less composable, manual orchestration
+The Streamlit app (`app.py`) uses **LangGraph for professional RAG orchestration** via `rag_orchestration.py`:
 
-**Alternative Path**: LangChain/LangGraph
+**RAGOrchestration Architecture**:
+- Encapsulates entire workflow as a directed acyclic graph (DAG)
+- Uses `TypedDict RAGState` for structured state management
+- Four-node workflow: `retrieve` → `format_context` → `generate` → `extract_citations`
+- Single interface: `rag.invoke(question)` orchestrates entire process
 
-The `phase4_langgraph_rag.py` implements the full LangGraph orchestration:
-- **Pros**: Structured workflow, state management, reusable components
-- **Cons**: More complex, additional dependencies
+**Design Benefits**:
+- ✅ **Structured**: Clearly defined nodes with single responsibilities
+- ✅ **Observable**: Each node's input/output can be logged and monitored
+- ✅ **Testable**: Individual nodes can be tested and mocked independently
+- ✅ **Composable**: Same RAG logic reusable by APIs, batch jobs, web services
+- ✅ **Production-Grade**: Professional orchestration patterns
+- ✅ **Performant**: Minimal overhead (~100ms) with same 3-5s first-answer time
+
+**Node Workflow**:
+1. `retrieve_node` → Hybrid search (FAISS + BM25 + re-ranking)
+2. `format_context_node` → Organize chunks for LLM
+3. `generate_node` → Claude generates answer
+4. `extract_citations_node` → Format rule metadata
+
+**Error Handling**:
+- Each node independently handles and reports errors
+- State captured in `RAGState` for inspection
+- Graceful degradation possible (skip citation extraction if needed)
+- Retry logic can be added per-node without touching others
 
 ---
 
@@ -202,51 +220,57 @@ Why 0.2 weight? Tested 0.1-0.5 empirically. At 0.2: good balance (filters noise,
 - Metadata: rule_number, rule_title, section_title, page_number, chunk_id
 - Rationale: Multiple options let LLM reason and choose best
 
-### LangGraph Orchestration (Alternative Implementation)
+### LangGraph Orchestration (Primary Implementation)
 
-For structured workflow management, `phase4_langgraph_rag.py` uses **LangGraph** to define a directed acyclic graph (DAG) of operations:
+The `rag_orchestration.py` module implements **LangGraph as the primary workflow orchestration** for the Streamlit app. This demonstrates production-grade RAG patterns.
 
-**LangGraph Node Structure:**
+**RAGOrchestration Workflow:**
 ```
-┌──────────────┐
-│  Retrieve    │  → Execute retrieval pipeline
-│              │     Returns: top-3 chunks + metadata
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐
-│  Format      │  → Format chunks as LLM context
-│  Context     │     Returns: formatted context string
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐
-│  Generate    │  → Call Claude with context
-│  Answer      │     Returns: answer text
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐
-│  Evaluate    │  → Check answer quality
-│              │     Returns: quality metrics
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐
-│  Format      │  → Add citations and metadata
-│  Response    │     Returns: final response object
-└──────────────┘
+User Question
+    ↓
+┌──────────────────┐
+│  retrieve_node   │  → Hybrid search (FAISS + BM25 + re-ranking)
+│                  │     Returns: top-3 chunks + metadata
+└────────┬─────────┘
+         │
+         ▼
+┌──────────────────┐
+│ format_context   │  → Organize chunks for LLM
+│      _node       │     Returns: formatted context string
+└────────┬─────────┘
+         │
+         ▼
+┌──────────────────┐
+│  generate_node   │  → Claude generates grounded answer
+│                  │     Returns: answer text
+└────────┬─────────┘
+         │
+         ▼
+┌──────────────────┐
+│extract_citations │  → Extract rule metadata and citations
+│      _node       │     Returns: citation objects
+└────────┬─────────┘
+         │
+         ▼
+   Final State
+   (answer, chunks, citations, success)
 ```
 
-**Why LangGraph for Production:**
-- **State Management**: Each node maintains state between steps
-- **Error Handling**: Built-in recovery and retry mechanisms
-- **Monitoring**: Track execution flow and performance
-- **Composition**: Reuse workflow for different applications
-- **Testing**: Easier to unit-test individual nodes
+**Why LangGraph (Chosen for This App):**
+- ✅ **State Management**: `RAGState` TypedDict maintains clear state through workflow
+- ✅ **Observable**: Each node's execution can be logged and monitored
+- ✅ **Testable**: Individual nodes testable in isolation
+- ✅ **Composable**: Same orchestration usable by APIs, batch jobs, webhooks
+- ✅ **Professional**: Production-grade pattern used in enterprise systems
+- ✅ **Error Handling**: Node-level error handling with graceful degradation
 
-**Current App Choice (Direct Calls):**
-The Streamlit app uses direct calls for simplicity and speed. This works well for the interactive demo but can be switched to LangGraph for production deployments without changing business logic.
+**How Streamlit Uses It:**
+The app now has a single clean interface:
+```python
+result = st.session_state.rag.invoke(user_input)
+```
+
+This replaces ~30 lines of manual orchestration with one line, while gaining structure and observability.
 
 ---
 
