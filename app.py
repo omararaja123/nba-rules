@@ -1,6 +1,6 @@
 """
 NBA Rules RAG Chatbot - Streamlit Application
-A production-quality RAG interface using LangGraph orchestration
+A production-quality RAG interface for querying the official NBA rulebook
 """
 
 import os
@@ -11,7 +11,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 import streamlit as st
-from rag_orchestration import RAGOrchestration
+from retriever import NBARetriever
+from generator import AnswerGenerator
 from config import (
     PAGE_TITLE,
     PAGE_ICON,
@@ -94,14 +95,17 @@ st.markdown("""
 if 'messages' not in st.session_state:
     st.session_state.messages = []
 
-if 'rag' not in st.session_state:
-    with st.spinner("Loading RAG system (LangGraph + LangChain)..."):
-        try:
-            st.session_state.rag = RAGOrchestration()
-        except ValueError as e:
-            st.error(f"Error initializing RAG system: {str(e)}")
-            st.info("Please set the ANTHROPIC_API_KEY environment variable in .env")
-            st.stop()
+if 'retriever' not in st.session_state:
+    with st.spinner("Loading retrieval system..."):
+        st.session_state.retriever = NBARetriever()
+
+if 'generator' not in st.session_state:
+    try:
+        st.session_state.generator = AnswerGenerator()
+    except ValueError as e:
+        st.error(f"Error initializing generator: {str(e)}")
+        st.info("Please set the ANTHROPIC_API_KEY environment variable.")
+        st.stop()
 
 if 'retrieved_chunks' not in st.session_state:
     st.session_state.retrieved_chunks = None
@@ -278,7 +282,7 @@ with col1:
         # Check cache first
         cache_key = user_input.lower().strip()
         if cache_key in st.session_state.answer_cache:
-            # Return cached result (from previous same question)
+            # Return cached result
             cached_result = st.session_state.answer_cache[cache_key]
             result = cached_result['result']
             retrieved_chunks = cached_result['chunks']
@@ -312,24 +316,23 @@ with col1:
             })
             st.rerun()
 
-        # Not cached - invoke RAG orchestration (LangGraph workflow)
-        # LangGraph orchestration handles: retrieve → format → generate → citations
-        with st.spinner("🔍 Executing RAG workflow (LangGraph)..."):
-            with st.spinner("  • Node 1: Retrieve chunks..."):
-                pass
-            with st.spinner("  • Node 2: Format context..."):
-                pass
-            with st.spinner("  • Node 3: Generate answer..."):
-                pass
-            with st.spinner("  • Node 4: Extract citations..."):
-                pass
+        # Not cached - retrieve and generate
+        # Retrieve relevant chunks
+        with st.spinner("🔍 Searching rulebook..."):
+            retrieved_chunks = st.session_state.retriever.retrieve(user_input)
 
-            # Invoke the LangGraph RAG orchestration
-            result = st.session_state.rag.invoke(user_input)
-
-        # Get chunks from result
-        retrieved_chunks = result.get('chunks', [])
         st.session_state.retrieved_chunks = retrieved_chunks
+
+        # Format context for LLM
+        context = st.session_state.retriever.format_context(retrieved_chunks)
+
+        # Generate answer
+        with st.spinner("✍️ Generating answer (⚡ first time, ⚡⚡ cached next time)..."):
+            result = st.session_state.generator.generate_answer(
+                user_input,
+                context,
+                retrieved_chunks
+            )
 
         # Display assistant response
         with st.chat_message("assistant", avatar="🤖"):
@@ -338,7 +341,7 @@ with col1:
 
                 # Display sources
                 with st.expander(
-                    f"📎 Sources ({len(retrieved_chunks)} chunks used)",
+                    f"📎 Sources ({result['chunks_used']} chunks used)",
                     expanded=False
                 ):
                     for i, chunk in enumerate(retrieved_chunks, 1):
@@ -355,16 +358,10 @@ with col1:
                         st.text(chunk["text"][:500] + "...")
                         st.divider()
 
-                # Show citations if available
-                if result.get('citations'):
-                    with st.expander("📚 Citations"):
-                        for citation in result['citations']:
-                            st.caption(citation)
-
             else:
-                st.error(f"Error: {result.get('error', 'Unknown error')}")
+                st.error(f"Error: {result['error']}")
 
-        # Cache the result for future use (with full result object)
+        # Cache the result for future use
         if result['success']:
             st.session_state.answer_cache[cache_key] = {
                 'result': result,
