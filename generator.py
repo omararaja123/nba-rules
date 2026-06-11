@@ -4,8 +4,12 @@ Uses Claude to generate grounded answers based on retrieved context
 """
 
 import os
+from dotenv import load_dotenv
 from anthropic import Anthropic
 from config import LLM_MODEL, LLM_MAX_TOKENS, LLM_TEMPERATURE
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 class AnswerGenerator:

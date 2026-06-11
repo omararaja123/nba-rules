@@ -4,6 +4,12 @@ A production-quality RAG interface for querying the official NBA rulebook
 """
 
 import os
+import json
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
 import streamlit as st
 from retriever import NBARetriever
 from generator import AnswerGenerator
@@ -104,17 +110,62 @@ if 'generator' not in st.session_state:
 if 'retrieved_chunks' not in st.session_state:
     st.session_state.retrieved_chunks = None
 
+if 'answer_cache' not in st.session_state:
+    st.session_state.answer_cache = {}  # Cache for question answers
+
 # ============================================================================
 # SIDEBAR
 # ============================================================================
 
 with st.sidebar:
-    st.title("📚 Settings & Info")
+    st.title("🎯 Demo & Settings")
 
-    # Display settings
-    st.subheader("Display Options")
-    show_relevance = st.checkbox("Show relevance scores", value=True)
-    show_all_chunks = st.checkbox("Show all retrieved chunks", value=True)
+    # Load test questions for demo
+    try:
+        with open('data/100_test_questions.json', 'r') as f:
+            test_data = json.load(f)
+            test_questions = test_data if isinstance(test_data, list) else test_data.get('questions', [])
+    except:
+        test_questions = []
+
+    # Test Questions Browser - PROMINENT
+    st.markdown("### 🧪 Demo Questions")
+    st.markdown("Click any question to load it →")
+
+    if test_questions:
+        search_term = st.text_input("🔍 Search (e.g., 'traveling')", placeholder="", label_visibility="collapsed")
+
+        filtered_qs = [q for q in test_questions
+                      if search_term.lower() in q.get('question', '').lower()]
+
+        if filtered_qs:
+            for i, q in enumerate(filtered_qs[:15]):  # Show top 15
+                question_text = q.get('question', '')
+                rule_num = q.get('rule', '')
+
+                # Cleaner button layout
+                if st.button(
+                    f"{question_text[:55]}{'...' if len(question_text) > 55 else ''}",
+                    key=f"test_q_{i}_{search_term}",
+                    use_container_width=True,
+                    type="secondary"
+                ):
+                    st.session_state.selected_test_question = question_text
+                    st.rerun()
+
+            if len(filtered_qs) > 15:
+                st.caption(f"📋 Showing 15 of {len(filtered_qs)} matches")
+        else:
+            st.info("No questions match your search")
+    else:
+        st.info("Questions not loaded")
+
+    st.divider()
+
+    # Display settings - CLEAN
+    st.markdown("### ⚙️ Settings")
+    show_relevance = st.checkbox("📊 Show relevance scores", value=True)
+    show_all_chunks = st.checkbox("📎 Show chunk details", value=True)
 
     st.divider()
 
@@ -147,11 +198,12 @@ with st.sidebar:
 # MAIN CONTENT - HEADER
 # ============================================================================
 
-st.markdown("# 🏀 NBA Rules Chatbot")
+st.markdown("# 🏀 NBA Rules Assistant")
 st.markdown(
-    "Ask questions about the Official 2025–26 NBA Playing Rules. "
-    "All answers are grounded in the official rulebook with source citations."
+    "Get instant, cited answers to any NBA rules question. "
+    "**Type your own** or **try a demo question** from the sidebar."
 )
+st.divider()
 
 # ============================================================================
 # MAIN CONTENT - CHAT DISPLAY
@@ -160,11 +212,15 @@ st.markdown(
 col1, col2 = st.columns([1.5, 1], gap="medium")
 
 with col1:
-    st.subheader("💬 Chat")
-
     # Display chat history
-    chat_container = st.container()
+    chat_container = st.container(height=500)
     with chat_container:
+        if not st.session_state.messages:
+            st.info(
+                "👋 **Start by typing a question** or select a demo question from the sidebar →\n\n"
+                "Examples: \"What is traveling?\", \"How many timeouts?\" or click 🧪 **Try Demo Questions**"
+            )
+
         for message in st.session_state.messages:
             if message["role"] == "user":
                 with st.chat_message("user", avatar="👤"):
@@ -177,7 +233,7 @@ with col1:
                     # Display sources for assistant messages
                     if message.get("chunks"):
                         with st.expander(
-                            f"📎 Sources ({len(message['chunks'])} chunks used)",
+                            f"📎 Source Chunks ({len(message['chunks'])} used)",
                             expanded=False
                         ):
                             for i, chunk in enumerate(message["chunks"], 1):
@@ -197,12 +253,20 @@ with col1:
                                 st.text(chunk["text"][:500] + "...")
                                 st.divider()
 
-    # Chat input
-    st.subheader("Ask a question")
+    # Chat input - PROMINENT
+    st.markdown("---")
+    st.write("**Your Question:**")
+
+    # Chat input is always available for freeform questions
     user_input = st.chat_input(
         "What do you want to know about NBA rules?",
         key="chat_input"
     )
+
+    # Check if a test question was selected (click from sidebar)
+    if 'selected_test_question' in st.session_state and st.session_state.selected_test_question:
+        user_input = st.session_state.selected_test_question
+        st.session_state.selected_test_question = None  # Clear it
 
     if user_input:
         # Add user message to history
@@ -215,6 +279,44 @@ with col1:
         with st.chat_message("user", avatar="👤"):
             st.write(user_input)
 
+        # Check cache first
+        cache_key = user_input.lower().strip()
+        if cache_key in st.session_state.answer_cache:
+            # Return cached result
+            cached_result = st.session_state.answer_cache[cache_key]
+            result = cached_result['result']
+            retrieved_chunks = cached_result['chunks']
+            st.session_state.retrieved_chunks = retrieved_chunks
+
+            with st.chat_message("assistant", avatar="🤖"):
+                st.write(f"**[Cached]** {result['answer']}")
+
+                with st.expander(
+                    f"📎 Sources ({result['chunks_used']} chunks used)",
+                    expanded=False
+                ):
+                    for i, chunk in enumerate(retrieved_chunks, 1):
+                        st.markdown(
+                            f"**[{i}] Rule {chunk['rule_number']}: "
+                            f"{chunk['rule_title']}**"
+                        )
+                        st.caption(
+                            f"{chunk['section_title']} • Page {chunk['page_number']}"
+                        )
+                        if show_relevance:
+                            relevance = f"Relevance: {chunk['relevance_score']:.1%}"
+                            st.caption(relevance)
+                        st.text(chunk["text"][:500] + "...")
+                        st.divider()
+
+            st.session_state.messages.append({
+                "role": "assistant",
+                "content": result['answer'],
+                "chunks": retrieved_chunks
+            })
+            st.rerun()
+
+        # Not cached - retrieve and generate
         # Retrieve relevant chunks
         with st.spinner("🔍 Searching rulebook..."):
             retrieved_chunks = st.session_state.retriever.retrieve(user_input)
@@ -225,7 +327,7 @@ with col1:
         context = st.session_state.retriever.format_context(retrieved_chunks)
 
         # Generate answer
-        with st.spinner("✍️ Generating answer..."):
+        with st.spinner("✍️ Generating answer (⚡ first time, ⚡⚡ cached next time)..."):
             result = st.session_state.generator.generate_answer(
                 user_input,
                 context,
@@ -259,6 +361,13 @@ with col1:
             else:
                 st.error(f"Error: {result['error']}")
 
+        # Cache the result for future use
+        if result['success']:
+            st.session_state.answer_cache[cache_key] = {
+                'result': result,
+                'chunks': retrieved_chunks
+            }
+
         # Add assistant message to history
         st.session_state.messages.append({
             "role": "assistant",
@@ -269,12 +378,11 @@ with col1:
         st.rerun()
 
 with col2:
-    st.subheader("📎 Source Chunks")
+    st.markdown("## 📎 Source Chunks")
 
     if st.session_state.retrieved_chunks:
-        st.info(
-            f"**{len(st.session_state.retrieved_chunks)} chunks retrieved** "
-            f"for the most recent question"
+        st.success(
+            f"✅ {len(st.session_state.retrieved_chunks)} rule sections retrieved"
         )
 
         for i, chunk in enumerate(st.session_state.retrieved_chunks, 1):
@@ -323,20 +431,20 @@ with col2:
             """
         )
 
-# ============================================================================
-# WELCOME MESSAGE (First time)
-# ============================================================================
-
-if not st.session_state.messages:
-    st.info(WELCOME_MESSAGE)
+# (Welcome message shown in chat container)
 
 # ============================================================================
 # FOOTER
 # ============================================================================
 
 st.divider()
-st.caption(
-    "🏀 NBA Rules RAG Chatbot | "
-    "Data: Official 2025–26 NBA Playing Rules | "
-    "Retrieval Accuracy: 90% | LLM Quality: 4.77/5.0"
-)
+col_left, col_center, col_right = st.columns(3)
+
+with col_left:
+    st.caption("**Data:** Official 2025–26 NBA Playing Rules")
+
+with col_center:
+    st.caption("**Accuracy:** 90% retrieval | 4.77/5.0 quality")
+
+with col_right:
+    st.caption("**Speed:** ⚡ ~3-5s first | ⚡⚡ instant cached")

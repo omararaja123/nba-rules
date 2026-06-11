@@ -31,7 +31,7 @@ HYBRID_WEIGHT = 0.8    # Weight for hybrid retrieval (1-RERANKER_WEIGHT)
 # LLM SETTINGS
 # ============================================================================
 
-LLM_MODEL = "claude-opus-4-1-20250805"
+LLM_MODEL = "claude-haiku-4-5-20251001"  # Fast (2-3x faster than Opus, still accurate)
 LLM_MAX_TOKENS = 500
 LLM_TEMPERATURE = 0.7
 
