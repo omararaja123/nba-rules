@@ -1,0 +1,848 @@
+{
+  "timestamp": "2026-06-10T20:04:45.827424",
+  "method": "Hybrid (70% semantic + 30% BM25)",
+  "model": "gpt-3.5-turbo",
+  "total_questions": 10,
+  "results": [
+    {
+      "id": 1,
+      "question": "What actions constitute a traveling violation under NBA rules?",
+      "expected_rule": "Rule 4",
+      "answer": "I could not find enough information in the retrieved NBA rules sections to answer this question.",
+      "citations": [
+        {
+          "chunk_id": "rule_03_section_IV_chunk_018",
+          "citation": "Rule 3, Section IV (The Coach and Others), p. 10",
+          "rule_number": 3,
+          "section_title": "The Coach and Others",
+          "combined_score": 0.604069934298874
+        },
+        {
+          "chunk_id": "rule_12_section_VII_chunk_105",
+          "citation": "Rule 12, Section VII (Fines), p. 39",
+          "rule_number": 12,
+          "section_title": "Fines",
+          "combined_score": 0.3930765280247883
+        },
+        {
+          "chunk_id": "rule_12_section_VII_chunk_106",
+          "citation": "Rule 12, Section VII (Fines), p. 39",
+          "rule_number": 12,
+          "section_title": "Fines",
+          "combined_score": 0.37854613325545833
+        },
+        {
+          "chunk_id": "rule_14_section_VI_chunk_149",
+          "citation": "Rule 14, Section VI (Resumption of Play), p. 63",
+          "rule_number": 14,
+          "section_title": "Resumption of Play",
+          "combined_score": 0.3727970091042829
+        },
+        {
+          "chunk_id": "rule_10_section_XVI_chunk_091",
+          "citation": "Rule 10, Section XVI (Five-Second Back-to-the-Basket Violation), p. 34",
+          "rule_number": 10,
+          "section_title": "Five-Second Back-to-the-Basket Violation",
+          "combined_score": 0.37212077243621183
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "rule_03_section_IV_chunk_018",
+          "citation": "Rule 3, Section IV (The Coach and Others), p. 10",
+          "combined_score": 0.604069934298874,
+          "semantic_score": 0.5446475907307673,
+          "keyword_score": 0.7427220692911233
+        },
+        {
+          "chunk_id": "rule_12_section_VII_chunk_105",
+          "citation": "Rule 12, Section VII (Fines), p. 39",
+          "combined_score": 0.3930765280247883,
+          "semantic_score": 0.5615378971782691,
+          "keyword_score": 0.0
+        },
+        {
+          "chunk_id": "rule_12_section_VII_chunk_106",
+          "citation": "Rule 12, Section VII (Fines), p. 39",
+          "combined_score": 0.37854613325545833,
+          "semantic_score": 0.5407801903649405,
+          "keyword_score": 0.0
+        },
+        {
+          "chunk_id": "rule_14_section_VI_chunk_149",
+          "citation": "Rule 14, Section VI (Resumption of Play), p. 63",
+          "combined_score": 0.3727970091042829,
+          "semantic_score": 0.5325671558632613,
+          "keyword_score": 0.0
+        },
+        {
+          "chunk_id": "rule_10_section_XVI_chunk_091",
+          "citation": "Rule 10, Section XVI (Five-Second Back-to-the-Basket Violation), p. 34",
+          "combined_score": 0.37212077243621183,
+          "semantic_score": 0.5316011034803027,
+          "keyword_score": 0.0
+        }
+      ],
+      "confidence": 0.3,
+      "faithfulness": 1,
+      "relevance": 1,
+      "notes": "System could not find information; Missing Rule 4"
+    },
+    {
+      "id": 2,
+      "question": "When is defensive goaltending called and what happens after the violation?",
+      "expected_rule": "Rule 11",
+      "answer": "According to the retrieved NBA rulebook excerpts, defensive goaltending is called when a defensive player interferes with a shot on its downward flight towards the basket. After a defensive goaltending violation, the offensive team is awarded two points for the basket, and play resumes at the point of interruption (Rule 13, Section II, p. 49).",
+      "citations": [
+        {
+          "chunk_id": "rule_14_section_VI_chunk_145",
+          "citation": "Rule 14, Section VI (Resumption of Play), p. 63",
+          "rule_number": 14,
+          "section_title": "Resumption of Play",
+          "combined_score": 0.7035523586113365
+        },
+        {
+          "chunk_id": "rule_13_section_II_chunk_131",
+          "citation": "Rule 13, Section II (Reviewable Matters), p. 49",
+          "rule_number": 13,
+          "section_title": "Reviewable Matters",
+          "combined_score": 0.41490585168734945
+        },
+        {
+          "chunk_id": "rule_12_section_I_chunk_109",
+          "citation": "Rule 12, Section I (Types), p. 40",
+          "rule_number": 12,
+          "section_title": "Types",
+          "combined_score": 0.410772949320129
+        },
+        {
+          "chunk_id": "rule_07_section_III_chunk_062",
+          "citation": "Rule 7, Section III (Putting Ball In Play After Violation), p. 23",
+          "rule_number": 7,
+          "section_title": "Putting Ball In Play After Violation",
+          "combined_score": 0.40879935380465604
+        },
+        {
+          "chunk_id": "rule_14_section_III_chunk_140",
+          "citation": "Rule 14, Section III (Reviewable Matters), p. 59",
+          "rule_number": 14,
+          "section_title": "Reviewable Matters",
+          "combined_score": 0.39953291866097723
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "rule_14_section_VI_chunk_145",
+          "citation": "Rule 14, Section VI (Resumption of Play), p. 63",
+          "combined_score": 0.7035523586113365,
+          "semantic_score": 0.5765033694447664,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_13_section_II_chunk_131",
+          "citation": "Rule 13, Section II (Reviewable Matters), p. 49",
+          "combined_score": 0.41490585168734945,
+          "semantic_score": 0.5927226452676421,
+          "keyword_score": 0.0
+        },
+        {
+          "chunk_id": "rule_12_section_I_chunk_109",
+          "citation": "Rule 12, Section I (Types), p. 40",
+          "combined_score": 0.410772949320129,
+          "semantic_score": 0.5868184990287557,
+          "keyword_score": 0.0
+        },
+        {
+          "chunk_id": "rule_07_section_III_chunk_062",
+          "citation": "Rule 7, Section III (Putting Ball In Play After Violation), p. 23",
+          "combined_score": 0.40879935380465604,
+          "semantic_score": 0.5839990768637944,
+          "keyword_score": 0.0
+        },
+        {
+          "chunk_id": "rule_14_section_III_chunk_140",
+          "citation": "Rule 14, Section III (Reviewable Matters), p. 59",
+          "combined_score": 0.39953291866097723,
+          "semantic_score": 0.5707613123728247,
+          "keyword_score": 0.0
+        }
+      ],
+      "confidence": 0.6097437198729383,
+      "faithfulness": 5,
+      "relevance": 2,
+      "notes": "Missing Rule 11"
+    },
+    {
+      "id": 3,
+      "question": "Which situations are reviewable using instant replay?",
+      "expected_rule": "Rule 13",
+      "answer": "According to Rule 14, Section I (Overview), p. 58, a head coach may trigger instant replay review of a called personal foul charged to its own team, a called out-of-bounds violation where its own team was not awarded possession, or a called goaltending or basket interference violation. These are the only situations that are reviewable using instant replay through a Coach's Challenge. Additionally, Rule 13, Section I (Instant Replay Review Triggers), p. 47, outlines other situations where instant replay will be triggered, such as field goals made with no time remaining, uncertain personal foul calls, altercations, game clock malfunctions, uncertain scoring decisions, and unsportsmanlike acts.",
+      "citations": [
+        {
+          "chunk_id": "rule_14_section_IV_chunk_141",
+          "citation": "Rule 14, Section IV (Replay Review Process), p. 61",
+          "rule_number": 14,
+          "section_title": "Replay Review Process",
+          "combined_score": 0.6016795762316999
+        },
+        {
+          "chunk_id": "rule_14_section_I_chunk_135",
+          "citation": "Rule 14, Section I (Overview), p. 58",
+          "rule_number": 14,
+          "section_title": "Overview",
+          "combined_score": 0.5735258379409673
+        },
+        {
+          "chunk_id": "rule_13_section_I_chunk_120",
+          "citation": "Rule 13, Section I (Instant Replay Review Triggers), p. 47",
+          "rule_number": 13,
+          "section_title": "Instant Replay Review Triggers",
+          "combined_score": 0.5718213387900409
+        },
+        {
+          "chunk_id": "rule_13_section_II_chunk_123",
+          "citation": "Rule 13, Section II (Reviewable Matters), p. 49",
+          "rule_number": 13,
+          "section_title": "Reviewable Matters",
+          "combined_score": 0.40999123047104097
+        },
+        {
+          "chunk_id": "rule_13_section_II_chunk_128",
+          "citation": "Rule 13, Section II (Reviewable Matters), p. 49",
+          "rule_number": 13,
+          "section_title": "Reviewable Matters",
+          "combined_score": 0.3957839620774294
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "rule_14_section_IV_chunk_141",
+          "citation": "Rule 14, Section IV (Replay Review Process), p. 61",
+          "combined_score": 0.6016795762316999,
+          "semantic_score": 0.5755179655034643,
+          "keyword_score": 0.6627233345975828
+        },
+        {
+          "chunk_id": "rule_14_section_I_chunk_135",
+          "citation": "Rule 14, Section I (Overview), p. 58",
+          "combined_score": 0.5735258379409673,
+          "semantic_score": 0.5621001616959452,
+          "keyword_score": 0.6001857491793525
+        },
+        {
+          "chunk_id": "rule_13_section_I_chunk_120",
+          "citation": "Rule 13, Section I (Instant Replay Review Triggers), p. 47",
+          "combined_score": 0.5718213387900409,
+          "semantic_score": 0.5567951262584812,
+          "keyword_score": 0.6068825013636806
+        },
+        {
+          "chunk_id": "rule_13_section_II_chunk_123",
+          "citation": "Rule 13, Section II (Reviewable Matters), p. 49",
+          "combined_score": 0.40999123047104097,
+          "semantic_score": 0.5857017578157728,
+          "keyword_score": 0.0
+        },
+        {
+          "chunk_id": "rule_13_section_II_chunk_128",
+          "citation": "Rule 13, Section II (Reviewable Matters), p. 49",
+          "combined_score": 0.3957839620774294,
+          "semantic_score": 0.5654056601106134,
+          "keyword_score": 0.0
+        }
+      ],
+      "confidence": 0.6823422509875694,
+      "faithfulness": 5,
+      "relevance": 5,
+      "notes": "OK"
+    },
+    {
+      "id": 4,
+      "question": "What behaviors can result in a technical foul being assessed?",
+      "expected_rule": "Rule 12",
+      "answer": "According to Rule 12, Section V (Conduct), a technical foul may be assessed for the following behaviors:\n1. Disrespectfully addressing an official\n2. Physically contacting an official\n3. Overt actions indicating resentment to a call or no-call\n4. Use of profanity\n5. A coach entering onto the court without permission of an official\n6. A deliberately-thrown elbow or any unnatural physical act towards an opponent with no contact involved\n7. Taunting\n8. Running tirades, continuous criticism, or griping at officials (Rule 12, Section V, p. 37).\n\nAdditionally, cursing at or blaspheming an official, excessive misconduct, and eye guarding can also result in a technical foul (Rule 12, Section V, p. 37; Rule 14, Section VI, p. 63).\n\nIf a player is guilty of taunting, they must be singled out and penalized, and if a previous unsportsmanlike act has been committed and is blatant, a technical foul must be assessed, and the player must be ejected (Rule 14, Section VI, p. 63).",
+      "citations": [
+        {
+          "chunk_id": "rule_12_section_V_chunk_100",
+          "citation": "Rule 12, Section V (Conduct), p. 37",
+          "rule_number": 12,
+          "section_title": "Conduct",
+          "combined_score": 0.7588287576134538
+        },
+        {
+          "chunk_id": "rule_12_section_V_chunk_101",
+          "citation": "Rule 12, Section V (Conduct), p. 37",
+          "rule_number": 12,
+          "section_title": "Conduct",
+          "combined_score": 0.7564976505477521
+        },
+        {
+          "chunk_id": "rule_14_section_VI_chunk_155",
+          "citation": "Rule 14, Section VI (Resumption of Play), p. 63",
+          "rule_number": 14,
+          "section_title": "Resumption of Play",
+          "combined_score": 0.7135054389955133
+        },
+        {
+          "chunk_id": "rule_04_section_IV_chunk_025",
+          "citation": "Rule 4, Section IV (Fouls), p. 12",
+          "rule_number": 4,
+          "section_title": "Fouls",
+          "combined_score": 0.4190039886194388
+        },
+        {
+          "chunk_id": "rule_12_section_VI_chunk_103",
+          "citation": "Rule 12, Section VI (Fighting Fouls), p. 39",
+          "rule_number": 12,
+          "section_title": "Fighting Fouls",
+          "combined_score": 0.4032014827202962
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "rule_12_section_V_chunk_100",
+          "citation": "Rule 12, Section V (Conduct), p. 37",
+          "combined_score": 0.7588287576134538,
+          "semantic_score": 0.6672661922722446,
+          "keyword_score": 0.9724747434096086
+        },
+        {
+          "chunk_id": "rule_12_section_V_chunk_101",
+          "citation": "Rule 12, Section V (Conduct), p. 37",
+          "combined_score": 0.7564976505477521,
+          "semantic_score": 0.6521395007825029,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_14_section_VI_chunk_155",
+          "citation": "Rule 14, Section VI (Resumption of Play), p. 63",
+          "combined_score": 0.7135054389955133,
+          "semantic_score": 0.5995941382127286,
+          "keyword_score": 0.9792984741553447
+        },
+        {
+          "chunk_id": "rule_04_section_IV_chunk_025",
+          "citation": "Rule 4, Section IV (Fouls), p. 12",
+          "combined_score": 0.4190039886194388,
+          "semantic_score": 0.5985771265991984,
+          "keyword_score": 0.0
+        },
+        {
+          "chunk_id": "rule_12_section_VI_chunk_103",
+          "citation": "Rule 12, Section VI (Fighting Fouls), p. 39",
+          "combined_score": 0.4032014827202962,
+          "semantic_score": 0.5760021181718518,
+          "keyword_score": 0.0
+        }
+      ],
+      "confidence": 0.8429439490522398,
+      "faithfulness": 5,
+      "relevance": 5,
+      "notes": "OK"
+    },
+    {
+      "id": 5,
+      "question": "How many timeouts does a team receive during a regulation NBA game?",
+      "expected_rule": "Rule 5",
+      "answer": "According to Rule 5, Section VI (Timeouts – Mandatory/Team), p. 17, each team is entitled to seven (7) charged timeouts during regulation play. Each team is limited to no more than four (4) timeouts in the fourth period. In overtime periods, each team is allowed two (2) team timeouts. Therefore, a team receives a total of seven timeouts during a regulation NBA game.",
+      "citations": [
+        {
+          "chunk_id": "rule_05_section_II_chunk_042",
+          "citation": "Rule 5, Section II (Timing), p. 16",
+          "rule_number": 5,
+          "section_title": "Timing",
+          "combined_score": 0.7460548229524439
+        },
+        {
+          "chunk_id": "rule_05_section_VI_chunk_046",
+          "citation": "Rule 5, Section VI (Timeouts – Mandatory/Team), p. 17",
+          "rule_number": 5,
+          "section_title": "Timeouts – Mandatory/Team",
+          "combined_score": 0.740632536053557
+        },
+        {
+          "chunk_id": "rule_05_section_VI_chunk_047",
+          "citation": "Rule 5, Section VI (Timeouts – Mandatory/Team), p. 17",
+          "rule_number": 5,
+          "section_title": "Timeouts – Mandatory/Team",
+          "combined_score": 0.7049222665728472
+        },
+        {
+          "chunk_id": "rule_05_section_VI_chunk_048",
+          "citation": "Rule 5, Section VI (Timeouts – Mandatory/Team), p. 17",
+          "rule_number": 5,
+          "section_title": "Timeouts – Mandatory/Team",
+          "combined_score": 0.6811757884582266
+        },
+        {
+          "chunk_id": "rule_12_section_V_chunk_113",
+          "citation": "Rule 12, Section V (Free Throw Penalty Situations), p. 43",
+          "rule_number": 12,
+          "section_title": "Free Throw Penalty Situations",
+          "combined_score": 0.6733303426346351
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "rule_05_section_II_chunk_042",
+          "citation": "Rule 5, Section II (Timing), p. 16",
+          "combined_score": 0.7460548229524439,
+          "semantic_score": 0.6372211756463484,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_05_section_VI_chunk_046",
+          "citation": "Rule 5, Section VI (Timeouts – Mandatory/Team), p. 17",
+          "combined_score": 0.740632536053557,
+          "semantic_score": 0.6294750515050814,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_05_section_VI_chunk_047",
+          "citation": "Rule 5, Section VI (Timeouts – Mandatory/Team), p. 17",
+          "combined_score": 0.7049222665728472,
+          "semantic_score": 0.5784603808183532,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_05_section_VI_chunk_048",
+          "citation": "Rule 5, Section VI (Timeouts – Mandatory/Team), p. 17",
+          "combined_score": 0.6811757884582266,
+          "semantic_score": 0.5445368406546094,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_12_section_V_chunk_113",
+          "citation": "Rule 12, Section V (Free Throw Penalty Situations), p. 43",
+          "combined_score": 0.6733303426346351,
+          "semantic_score": 0.5333290609066217,
+          "keyword_score": 1.0
+        }
+      ],
+      "confidence": 0.830536541859616,
+      "faithfulness": 5,
+      "relevance": 5,
+      "notes": "OK"
+    },
+    {
+      "id": 6,
+      "question": "When does the shot clock reset to 14 seconds instead of 24 seconds?",
+      "expected_rule": "Rule 7",
+      "answer": "According to Rule 7, Section IV(d) (p. 24), the shot clock resets to 14 seconds in the following situations:\n1. The offensive team is the first to gain possession after an unsuccessful free throw that remains in play, or an unsuccessful field goal attempt that contacts the basket ring.\n2. A loose ball foul is called on the defensive team in the sequence immediately following an unsuccessful free throw that remains in play, or an unsuccessful field goal attempt that contacts the basket ring; provided that the offensive team inbounds the ball in the frontcourt.\n3. The offensive team retains possession after the ball goes out-of-bounds in the sequence immediately following an unsuccessful free throw that remains in play, or an unsuccessful field goal attempt that contacts the basket ring (Rule 7, Section IV(d), p. 24).",
+      "citations": [
+        {
+          "chunk_id": "rule_07_section_I_chunk_059",
+          "citation": "Rule 7, Section I (Definition), p. 22",
+          "rule_number": 7,
+          "section_title": "Definition",
+          "combined_score": 0.7629930890382606
+        },
+        {
+          "chunk_id": "rule_07_section_IV_chunk_063",
+          "citation": "Rule 7, Section IV (Resetting Shot Clock), p. 24",
+          "rule_number": 7,
+          "section_title": "Resetting Shot Clock",
+          "combined_score": 0.7345893257940703
+        },
+        {
+          "chunk_id": "rule_07_section_II_chunk_061",
+          "citation": "Rule 7, Section II (Starting and Stopping of Shot Clock), p. 22",
+          "rule_number": 7,
+          "section_title": "Starting and Stopping of Shot Clock",
+          "combined_score": 0.6744063752864304
+        },
+        {
+          "chunk_id": "rule_07_section_II_chunk_060",
+          "citation": "Rule 7, Section II (Starting and Stopping of Shot Clock), p. 22",
+          "rule_number": 7,
+          "section_title": "Starting and Stopping of Shot Clock",
+          "combined_score": 0.6610640262048206
+        },
+        {
+          "chunk_id": "rule_02_section_VIII_chunk_013",
+          "citation": "Rule 2, Section VIII (Duties of Timers), p. 8",
+          "rule_number": 2,
+          "section_title": "Duties of Timers",
+          "combined_score": 0.4113919626677433
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "rule_07_section_I_chunk_059",
+          "citation": "Rule 7, Section I (Definition), p. 22",
+          "combined_score": 0.7629930890382606,
+          "semantic_score": 0.6614186986260866,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_07_section_IV_chunk_063",
+          "citation": "Rule 7, Section IV (Resetting Shot Clock), p. 24",
+          "combined_score": 0.7345893257940703,
+          "semantic_score": 0.620841893991529,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_07_section_II_chunk_061",
+          "citation": "Rule 7, Section II (Starting and Stopping of Shot Clock), p. 22",
+          "combined_score": 0.6744063752864304,
+          "semantic_score": 0.5348662504091863,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_07_section_II_chunk_060",
+          "citation": "Rule 7, Section II (Starting and Stopping of Shot Clock), p. 22",
+          "combined_score": 0.6610640262048206,
+          "semantic_score": 0.5158057517211725,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_02_section_VIII_chunk_013",
+          "citation": "Rule 2, Section VIII (Duties of Timers), p. 8",
+          "combined_score": 0.4113919626677433,
+          "semantic_score": 0.5877028038110619,
+          "keyword_score": 0.0
+        }
+      ],
+      "confidence": 0.8239962633729204,
+      "faithfulness": 5,
+      "relevance": 5,
+      "notes": "OK"
+    },
+    {
+      "id": 7,
+      "question": "In what situations is a jump ball used to resume play?",
+      "expected_rule": "Rule 6",
+      "answer": "According to Rule 6, Section V (p. 21), a jump ball is used to resume play in the following situations:\n1. At the start of the game\n2. At the start of each overtime period\n3. A double free throw violation\n4. Double foul during a loose ball\n5. The ball becomes dead when neither team is in control and no field goal or infraction is involved\n6. The ball comes to rest on the basket flange or becomes lodged between the basket ring and the backboard\n7. A double foul which occurs as a result of a difference in opinion between officials\n8. A suspension of play occurs during a loose ball\n9. A fighting foul occurs during a loose ball\n10. The officials are in doubt as to which team last touched the ball before going out-of-bounds and the players cannot be identified.\n\nTherefore, a jump ball is used in various scenarios to resume play in an NBA game.",
+      "citations": [
+        {
+          "chunk_id": "rule_12_section_III_chunk_098",
+          "citation": "Rule 12, Section III (Number of Players), p. 36",
+          "rule_number": 12,
+          "section_title": "Number of Players",
+          "combined_score": 0.7288568575241775
+        },
+        {
+          "chunk_id": "rule_04_section_XI_chunk_033",
+          "citation": "Rule 4, Section XI (Field Goal Attempt), p. 14",
+          "rule_number": 4,
+          "section_title": "Field Goal Attempt",
+          "combined_score": 0.7167726704500166
+        },
+        {
+          "chunk_id": "rule_12_section_VI_chunk_114",
+          "citation": "Rule 12, Section VI (Double Fouls), p. 44",
+          "rule_number": 12,
+          "section_title": "Double Fouls",
+          "combined_score": 0.6954145179591784
+        },
+        {
+          "chunk_id": "rule_06_section_VI_chunk_057",
+          "citation": "Rule 6, Section VI (Other Jump Balls), p. 21",
+          "rule_number": 6,
+          "section_title": "Other Jump Balls",
+          "combined_score": 0.4179162892839243
+        },
+        {
+          "chunk_id": "rule_06_section_V_chunk_056",
+          "citation": "Rule 6, Section V (Jump Balls in Center Circle), p. 21",
+          "rule_number": 6,
+          "section_title": "Jump Balls in Center Circle",
+          "combined_score": 0.4152114512725995
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "rule_12_section_III_chunk_098",
+          "citation": "Rule 12, Section III (Number of Players), p. 36",
+          "combined_score": 0.7288568575241775,
+          "semantic_score": 0.6126526536059679,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_04_section_XI_chunk_033",
+          "citation": "Rule 4, Section XI (Field Goal Attempt), p. 14",
+          "combined_score": 0.7167726704500166,
+          "semantic_score": 0.5953895292143095,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_12_section_VI_chunk_114",
+          "citation": "Rule 12, Section VI (Double Fouls), p. 44",
+          "combined_score": 0.6954145179591784,
+          "semantic_score": 0.5648778827988263,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_06_section_VI_chunk_057",
+          "citation": "Rule 6, Section VI (Other Jump Balls), p. 21",
+          "combined_score": 0.4179162892839243,
+          "semantic_score": 0.5970232704056062,
+          "keyword_score": 0.0
+        },
+        {
+          "chunk_id": "rule_06_section_V_chunk_056",
+          "citation": "Rule 6, Section V (Jump Balls in Center Circle), p. 21",
+          "combined_score": 0.4152114512725995,
+          "semantic_score": 0.5931592161037136,
+          "keyword_score": 0.0
+        }
+      ],
+      "confidence": 0.8136813486444575,
+      "faithfulness": 5,
+      "relevance": 5,
+      "notes": "OK"
+    },
+    {
+      "id": 8,
+      "question": "What is the difference between a Flagrant Foul Penalty 1 and Penalty 2?",
+      "expected_rule": "Rule 12",
+      "answer": "According to Rule 12, Section IV (p. 43), a Flagrant Foul Penalty 1 is assessed when contact against a player is interpreted as unnecessary, while a Flagrant Foul Penalty 2 is assessed when the contact is interpreted as unnecessary and excessive. Both result in two free throws and the ball awarded to the offended team, but a Flagrant Foul Penalty 2 is considered an unsportsmanlike act and results in the offender being ejected (Rule 12, Section IV, p. 43).",
+      "citations": [
+        {
+          "chunk_id": "rule_12_section_V_chunk_102",
+          "citation": "Rule 12, Section V (Conduct), p. 37",
+          "rule_number": 12,
+          "section_title": "Conduct",
+          "combined_score": 0.7165136146584916
+        },
+        {
+          "chunk_id": "rule_12_section_VII_chunk_115",
+          "citation": "Rule 12, Section VII (Offensive Fouls), p. 45",
+          "rule_number": 12,
+          "section_title": "Offensive Fouls",
+          "combined_score": 0.6828522827109239
+        },
+        {
+          "chunk_id": "rule_12_section_VIII_chunk_116",
+          "citation": "Rule 12, Section VIII (Loose Ball Fouls), p. 45",
+          "rule_number": 12,
+          "section_title": "Loose Ball Fouls",
+          "combined_score": 0.6786016224349883
+        },
+        {
+          "chunk_id": "rule_12_section_I_chunk_108",
+          "citation": "Rule 12, Section I (Types), p. 40",
+          "rule_number": 12,
+          "section_title": "Types",
+          "combined_score": 0.6685717386423501
+        },
+        {
+          "chunk_id": "rule_12_section_IV_chunk_112",
+          "citation": "Rule 12, Section IV (Flagrant Foul), p. 43",
+          "rule_number": 12,
+          "section_title": "Flagrant Foul",
+          "combined_score": 0.41823922481350073
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "rule_12_section_V_chunk_102",
+          "citation": "Rule 12, Section V (Conduct), p. 37",
+          "combined_score": 0.7165136146584916,
+          "semantic_score": 0.5950194495121308,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_12_section_VII_chunk_115",
+          "citation": "Rule 12, Section VII (Offensive Fouls), p. 45",
+          "combined_score": 0.6828522827109239,
+          "semantic_score": 0.5469318324441771,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_12_section_VIII_chunk_116",
+          "citation": "Rule 12, Section VIII (Loose Ball Fouls), p. 45",
+          "combined_score": 0.6786016224349883,
+          "semantic_score": 0.540859460621412,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_12_section_I_chunk_108",
+          "citation": "Rule 12, Section I (Types), p. 40",
+          "combined_score": 0.6685717386423501,
+          "semantic_score": 0.5265310552033573,
+          "keyword_score": 1.0
+        },
+        {
+          "chunk_id": "rule_12_section_IV_chunk_112",
+          "citation": "Rule 12, Section IV (Flagrant Foul), p. 43",
+          "combined_score": 0.41823922481350073,
+          "semantic_score": 0.5974846068764297,
+          "keyword_score": 0.0
+        }
+      ],
+      "confidence": 0.7926558399348014,
+      "faithfulness": 5,
+      "relevance": 5,
+      "notes": "OK"
+    },
+    {
+      "id": 9,
+      "question": "When is a player considered out of bounds?",
+      "expected_rule": "Rule 10",
+      "answer": "According to Rule 8, Section I (Player), p. 25, a player is considered out of bounds when he touches the floor or any object on or outside a boundary. Additionally, Rule 8, Section II (Ball), p. 25 states that the ball is out of bounds when it touches a player who is out of bounds or any other person, the floor, or any object on, above, or outside of a boundary.",
+      "citations": [
+        {
+          "chunk_id": "rule_10_section_I_chunk_075",
+          "citation": "Rule 10, Section I (Out-of-Bounds), p. 29",
+          "rule_number": 10,
+          "section_title": "Out-of-Bounds",
+          "combined_score": 0.4384054980826935
+        },
+        {
+          "chunk_id": "rule_08_section_II_chunk_066",
+          "citation": "Rule 8, Section II (Ball), p. 25",
+          "rule_number": 8,
+          "section_title": "Ball",
+          "combined_score": 0.42782808467840794
+        },
+        {
+          "chunk_id": "rule_08_section_I_chunk_065",
+          "citation": "Rule 8, Section I (Player), p. 25",
+          "rule_number": 8,
+          "section_title": "Player",
+          "combined_score": 0.4208728213457852
+        },
+        {
+          "chunk_id": "rule_06_section_I_chunk_052",
+          "citation": "Rule 6, Section I (Start of Games/Periods and Others), p. 20",
+          "rule_number": 6,
+          "section_title": "Start of Games/Periods and Others",
+          "combined_score": 0.4176297743127017
+        },
+        {
+          "chunk_id": "rule_10_section_XV_chunk_090",
+          "citation": "Rule 10, Section XV (Offensive Player Out-of-Bounds), p. 33",
+          "rule_number": 10,
+          "section_title": "Offensive Player Out-of-Bounds",
+          "combined_score": 0.41313147295995234
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "rule_10_section_I_chunk_075",
+          "citation": "Rule 10, Section I (Out-of-Bounds), p. 29",
+          "combined_score": 0.4384054980826935,
+          "semantic_score": 0.6262935686895622,
+          "keyword_score": 0.0
+        },
+        {
+          "chunk_id": "rule_08_section_II_chunk_066",
+          "citation": "Rule 8, Section II (Ball), p. 25",
+          "combined_score": 0.42782808467840794,
+          "semantic_score": 0.6111829781120114,
+          "keyword_score": 0.0
+        },
+        {
+          "chunk_id": "rule_08_section_I_chunk_065",
+          "citation": "Rule 8, Section I (Player), p. 25",
+          "combined_score": 0.4208728213457852,
+          "semantic_score": 0.601246887636836,
+          "keyword_score": 0.0
+        },
+        {
+          "chunk_id": "rule_06_section_I_chunk_052",
+          "citation": "Rule 6, Section I (Start of Games/Periods and Others), p. 20",
+          "combined_score": 0.4176297743127017,
+          "semantic_score": 0.5966139633038596,
+          "keyword_score": 0.0
+        },
+        {
+          "chunk_id": "rule_10_section_XV_chunk_090",
+          "citation": "Rule 10, Section XV (Offensive Player Out-of-Bounds), p. 33",
+          "combined_score": 0.41313147295995234,
+          "semantic_score": 0.5901878185142176,
+          "keyword_score": 0.0
+        }
+      ],
+      "confidence": 0.529035468035629,
+      "faithfulness": 5,
+      "relevance": 2,
+      "notes": "Missing Rule 10"
+    },
+    {
+      "id": 10,
+      "question": "How many free throws are awarded for different types of personal fouls?",
+      "expected_rule": "Rule 8",
+      "answer": "According to Rule 12, Section IX (p. 46), punching fouls result in two free throw attempts being awarded. According to Rule 12, Section XI (p. 47), transition take fouls result in one free throw attempt being awarded, but if the foul is flagrant or punching, two free throw attempts are awarded. Away-from-the-play fouls, as per Rule 12, Section X (p. 46), result in one free throw attempt being awarded, but if the foul is flagrant or punching, two free throw attempts are awarded. Offensive fouls, as per Rule 12, Section VII (p. 45), do not result in free throw attempts unless the foul is punching or flagrant, in which case two free throw attempts are awarded.",
+      "citations": [
+        {
+          "chunk_id": "rule_12_section_IX_chunk_117",
+          "citation": "Rule 12, Section IX (Punching Fouls), p. 46",
+          "rule_number": 12,
+          "section_title": "Punching Fouls",
+          "combined_score": 0.6779024451378933
+        },
+        {
+          "chunk_id": "rule_12_section_XI_chunk_119",
+          "citation": "Rule 12, Section XI (Transition Take Foul), p. 47",
+          "rule_number": 12,
+          "section_title": "Transition Take Foul",
+          "combined_score": 0.6435058546097224
+        },
+        {
+          "chunk_id": "rule_12_section_X_chunk_118",
+          "citation": "Rule 12, Section X (Away-From-The-Play Foul), p. 46",
+          "rule_number": 12,
+          "section_title": "Away-From-The-Play Foul",
+          "combined_score": 0.6432158800406242
+        },
+        {
+          "chunk_id": "rule_12_section_V_chunk_102",
+          "citation": "Rule 12, Section V (Conduct), p. 37",
+          "rule_number": 12,
+          "section_title": "Conduct",
+          "combined_score": 0.6237456848014701
+        },
+        {
+          "chunk_id": "rule_12_section_VII_chunk_115",
+          "citation": "Rule 12, Section VII (Offensive Fouls), p. 45",
+          "rule_number": 12,
+          "section_title": "Offensive Fouls",
+          "combined_score": 0.40660249779700236
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "rule_12_section_IX_chunk_117",
+          "citation": "Rule 12, Section IX (Punching Fouls), p. 46",
+          "combined_score": 0.6779024451378933,
+          "semantic_score": 0.5882841203552732,
+          "keyword_score": 0.8870118696306737
+        },
+        {
+          "chunk_id": "rule_12_section_XI_chunk_119",
+          "citation": "Rule 12, Section XI (Transition Take Foul), p. 47",
+          "combined_score": 0.6435058546097224,
+          "semantic_score": 0.5597689739036642,
+          "keyword_score": 0.8388919095905252
+        },
+        {
+          "chunk_id": "rule_12_section_X_chunk_118",
+          "citation": "Rule 12, Section X (Away-From-The-Play Foul), p. 46",
+          "combined_score": 0.6432158800406242,
+          "semantic_score": 0.5696187012609574,
+          "keyword_score": 0.8149426305265137
+        },
+        {
+          "chunk_id": "rule_12_section_V_chunk_102",
+          "citation": "Rule 12, Section V (Conduct), p. 37",
+          "combined_score": 0.6237456848014701,
+          "semantic_score": 0.5511140444499601,
+          "keyword_score": 0.7932195122883265
+        },
+        {
+          "chunk_id": "rule_12_section_VII_chunk_115",
+          "citation": "Rule 12, Section VII (Offensive Fouls), p. 45",
+          "combined_score": 0.40660249779700236,
+          "semantic_score": 0.5808607111385748,
+          "keyword_score": 0.0
+        }
+      ],
+      "confidence": 0.75487472659608,
+      "faithfulness": 5,
+      "relevance": 2,
+      "notes": "Missing Rule 8"
+    }
+  ]
+}

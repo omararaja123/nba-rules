@@ -1,0 +1,441 @@
+{
+  "extraction_timestamp": "2026-06-10T18:12:45.004762",
+  "source": "/Users/omar/Documents/Claude-Vibe-Code/nba-rules/Official-2025-26-NBA-Playing-Rules.pdf",
+  "total_pages": 71,
+  "pages": [
+    {
+      "page_number": 1,
+      "text_length": 153,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 2,
+      "text_length": 829,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 3,
+      "text_length": 853,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 4,
+      "text_length": 854,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 5,
+      "text_length": 957,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 6,
+      "text_length": 823,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 7,
+      "text_length": 399,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 8,
+      "text_length": 1153,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 9,
+      "text_length": 2993,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 10,
+      "text_length": 3418,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 11,
+      "text_length": 3181,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 12,
+      "text_length": 2814,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 13,
+      "text_length": 3467,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 14,
+      "text_length": 3469,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 15,
+      "text_length": 3515,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 16,
+      "text_length": 3688,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 17,
+      "text_length": 2729,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 18,
+      "text_length": 3145,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 19,
+      "text_length": 3168,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 20,
+      "text_length": 3151,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 21,
+      "text_length": 2574,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 22,
+      "text_length": 2510,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 23,
+      "text_length": 3534,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 24,
+      "text_length": 3275,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 25,
+      "text_length": 2198,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 26,
+      "text_length": 2260,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 27,
+      "text_length": 2903,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 28,
+      "text_length": 3077,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 29,
+      "text_length": 3435,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 30,
+      "text_length": 3265,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 31,
+      "text_length": 3429,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 32,
+      "text_length": 3574,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 33,
+      "text_length": 3439,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 34,
+      "text_length": 2949,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 35,
+      "text_length": 2909,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 36,
+      "text_length": 3380,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 37,
+      "text_length": 3153,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 38,
+      "text_length": 2731,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 39,
+      "text_length": 3396,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 40,
+      "text_length": 3633,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 41,
+      "text_length": 3134,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 42,
+      "text_length": 3356,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 43,
+      "text_length": 3028,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 44,
+      "text_length": 3727,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 45,
+      "text_length": 3537,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 46,
+      "text_length": 3626,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 47,
+      "text_length": 3123,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 48,
+      "text_length": 2939,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 49,
+      "text_length": 3152,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 50,
+      "text_length": 3419,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 51,
+      "text_length": 3549,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 52,
+      "text_length": 3323,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 53,
+      "text_length": 3152,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 54,
+      "text_length": 3627,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 55,
+      "text_length": 3632,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 56,
+      "text_length": 3617,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 57,
+      "text_length": 3582,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 58,
+      "text_length": 3110,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 59,
+      "text_length": 2934,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 60,
+      "text_length": 3924,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 61,
+      "text_length": 3782,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 62,
+      "text_length": 3021,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 63,
+      "text_length": 3433,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 64,
+      "text_length": 3891,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 65,
+      "text_length": 2863,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 66,
+      "text_length": 3135,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 67,
+      "text_length": 3258,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 68,
+      "text_length": 3666,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 69,
+      "text_length": 3616,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 70,
+      "text_length": 3855,
+      "has_images": false,
+      "quality_issues": []
+    },
+    {
+      "page_number": 71,
+      "text_length": 2921,
+      "has_images": false,
+      "quality_issues": []
+    }
+  ],
+  "statistics": {
+    "total_pages": 71,
+    "extracted_pages": 71,
+    "pages_with_issues": [
+      "Page 76: Very short text extracted (9 chars)"
+    ],
+    "total_chars": 211315
+  }
+}

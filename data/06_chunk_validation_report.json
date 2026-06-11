@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-06-10T18:33:01.491629",
+  "checks": {
+    "metadata_complete": {
+      "status": "PASS",
+      "message": "All 155 chunks have complete metadata"
+    },
+    "token_count": {
+      "status": "WARNING",
+      "avg_tokens": 321,
+      "target_tokens": 512,
+      "variance": "37.3%"
+    },
+    "overlap": {
+      "status": "PASS",
+      "chunks_with_overlap": 51,
+      "total_chunks": 155,
+      "overlap_fraction": "32.9%"
+    },
+    "citation_ready": {
+      "status": "PASS",
+      "message": "All chunks traceable to rule/page"
+    }
+  },
+  "overall_status": "WARNING"
+}

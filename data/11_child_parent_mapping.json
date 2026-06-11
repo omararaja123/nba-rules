@@ -1,0 +1,777 @@
+{
+  "rule_01_section_I_chunk_001": {
+    "parent_id": "parent_rule_01",
+    "parent_rule": 1,
+    "rule_title": "COURT DIMENSIONS\u2014EQUIPMENT"
+  },
+  "rule_01_section_II_chunk_002": {
+    "parent_id": "parent_rule_01",
+    "parent_rule": 1,
+    "rule_title": "COURT DIMENSIONS\u2014EQUIPMENT"
+  },
+  "rule_02_section_I_chunk_003": {
+    "parent_id": "parent_rule_02",
+    "parent_rule": 2,
+    "rule_title": "OFFICIALS AND THEIR DUTIES"
+  },
+  "rule_02_section_II_chunk_004": {
+    "parent_id": "parent_rule_02",
+    "parent_rule": 2,
+    "rule_title": "OFFICIALS AND THEIR DUTIES"
+  },
+  "rule_02_section_II_chunk_005": {
+    "parent_id": "parent_rule_02",
+    "parent_rule": 2,
+    "rule_title": "OFFICIALS AND THEIR DUTIES"
+  },
+  "rule_02_section_III_chunk_006": {
+    "parent_id": "parent_rule_02",
+    "parent_rule": 2,
+    "rule_title": "OFFICIALS AND THEIR DUTIES"
+  },
+  "rule_02_section_IV_chunk_007": {
+    "parent_id": "parent_rule_02",
+    "parent_rule": 2,
+    "rule_title": "OFFICIALS AND THEIR DUTIES"
+  },
+  "rule_02_section_V_chunk_008": {
+    "parent_id": "parent_rule_02",
+    "parent_rule": 2,
+    "rule_title": "OFFICIALS AND THEIR DUTIES"
+  },
+  "rule_02_section_VI_chunk_009": {
+    "parent_id": "parent_rule_02",
+    "parent_rule": 2,
+    "rule_title": "OFFICIALS AND THEIR DUTIES"
+  },
+  "rule_02_section_VI_chunk_010": {
+    "parent_id": "parent_rule_02",
+    "parent_rule": 2,
+    "rule_title": "OFFICIALS AND THEIR DUTIES"
+  },
+  "rule_02_section_VII_chunk_011": {
+    "parent_id": "parent_rule_02",
+    "parent_rule": 2,
+    "rule_title": "OFFICIALS AND THEIR DUTIES"
+  },
+  "rule_02_section_VII_chunk_012": {
+    "parent_id": "parent_rule_02",
+    "parent_rule": 2,
+    "rule_title": "OFFICIALS AND THEIR DUTIES"
+  },
+  "rule_02_section_VIII_chunk_013": {
+    "parent_id": "parent_rule_02",
+    "parent_rule": 2,
+    "rule_title": "OFFICIALS AND THEIR DUTIES"
+  },
+  "rule_02_section_VIII_chunk_014": {
+    "parent_id": "parent_rule_02",
+    "parent_rule": 2,
+    "rule_title": "OFFICIALS AND THEIR DUTIES"
+  },
+  "rule_03_section_I_chunk_015": {
+    "parent_id": "parent_rule_03",
+    "parent_rule": 3,
+    "rule_title": "PLAYERS, SUBSTITUTES, AND COACHES"
+  },
+  "rule_03_section_II_chunk_016": {
+    "parent_id": "parent_rule_03",
+    "parent_rule": 3,
+    "rule_title": "PLAYERS, SUBSTITUTES, AND COACHES"
+  },
+  "rule_03_section_III_chunk_017": {
+    "parent_id": "parent_rule_03",
+    "parent_rule": 3,
+    "rule_title": "PLAYERS, SUBSTITUTES, AND COACHES"
+  },
+  "rule_03_section_IV_chunk_018": {
+    "parent_id": "parent_rule_03",
+    "parent_rule": 3,
+    "rule_title": "PLAYERS, SUBSTITUTES, AND COACHES"
+  },
+  "rule_03_section_V_chunk_019": {
+    "parent_id": "parent_rule_03",
+    "parent_rule": 3,
+    "rule_title": "PLAYERS, SUBSTITUTES, AND COACHES"
+  },
+  "rule_03_section_V_chunk_020": {
+    "parent_id": "parent_rule_03",
+    "parent_rule": 3,
+    "rule_title": "PLAYERS, SUBSTITUTES, AND COACHES"
+  },
+  "rule_03_section_VI_chunk_021": {
+    "parent_id": "parent_rule_03",
+    "parent_rule": 3,
+    "rule_title": "PLAYERS, SUBSTITUTES, AND COACHES"
+  },
+  "rule_04_section_I_chunk_022": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_II_chunk_023": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_III_chunk_024": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_IV_chunk_025": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_IV_chunk_026": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_V_chunk_027": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_VI_chunk_028": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_VII_chunk_029": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_VIII_chunk_030": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_IX_chunk_031": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_X_chunk_032": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_XI_chunk_033": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_XII_chunk_034": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_XIII_chunk_035": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_XIV_chunk_036": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_XV_chunk_037": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_XVI_chunk_038": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_XVII_chunk_039": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_04_section_XVIII_chunk_040": {
+    "parent_id": "parent_rule_04",
+    "parent_rule": 4,
+    "rule_title": "DEFINITIONS"
+  },
+  "rule_05_section_I_chunk_041": {
+    "parent_id": "parent_rule_05",
+    "parent_rule": 5,
+    "rule_title": "SCORING AND TIMING"
+  },
+  "rule_05_section_II_chunk_042": {
+    "parent_id": "parent_rule_05",
+    "parent_rule": 5,
+    "rule_title": "SCORING AND TIMING"
+  },
+  "rule_05_section_III_chunk_043": {
+    "parent_id": "parent_rule_05",
+    "parent_rule": 5,
+    "rule_title": "SCORING AND TIMING"
+  },
+  "rule_05_section_IV_chunk_044": {
+    "parent_id": "parent_rule_05",
+    "parent_rule": 5,
+    "rule_title": "SCORING AND TIMING"
+  },
+  "rule_05_section_V_chunk_045": {
+    "parent_id": "parent_rule_05",
+    "parent_rule": 5,
+    "rule_title": "SCORING AND TIMING"
+  },
+  "rule_05_section_VI_chunk_046": {
+    "parent_id": "parent_rule_05",
+    "parent_rule": 5,
+    "rule_title": "SCORING AND TIMING"
+  },
+  "rule_05_section_VI_chunk_047": {
+    "parent_id": "parent_rule_05",
+    "parent_rule": 5,
+    "rule_title": "SCORING AND TIMING"
+  },
+  "rule_05_section_VI_chunk_048": {
+    "parent_id": "parent_rule_05",
+    "parent_rule": 5,
+    "rule_title": "SCORING AND TIMING"
+  },
+  "rule_05_section_VII_chunk_049": {
+    "parent_id": "parent_rule_05",
+    "parent_rule": 5,
+    "rule_title": "SCORING AND TIMING"
+  },
+  "rule_05_section_VIII_chunk_050": {
+    "parent_id": "parent_rule_05",
+    "parent_rule": 5,
+    "rule_title": "SCORING AND TIMING"
+  },
+  "rule_06_section_I_chunk_051": {
+    "parent_id": "parent_rule_06",
+    "parent_rule": 6,
+    "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL"
+  },
+  "rule_06_section_I_chunk_052": {
+    "parent_id": "parent_rule_06",
+    "parent_rule": 6,
+    "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL"
+  },
+  "rule_06_section_II_chunk_053": {
+    "parent_id": "parent_rule_06",
+    "parent_rule": 6,
+    "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL"
+  },
+  "rule_06_section_III_chunk_054": {
+    "parent_id": "parent_rule_06",
+    "parent_rule": 6,
+    "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL"
+  },
+  "rule_06_section_IV_chunk_055": {
+    "parent_id": "parent_rule_06",
+    "parent_rule": 6,
+    "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL"
+  },
+  "rule_06_section_V_chunk_056": {
+    "parent_id": "parent_rule_06",
+    "parent_rule": 6,
+    "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL"
+  },
+  "rule_06_section_VI_chunk_057": {
+    "parent_id": "parent_rule_06",
+    "parent_rule": 6,
+    "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL"
+  },
+  "rule_06_section_VII_chunk_058": {
+    "parent_id": "parent_rule_06",
+    "parent_rule": 6,
+    "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL"
+  },
+  "rule_07_section_I_chunk_059": {
+    "parent_id": "parent_rule_07",
+    "parent_rule": 7,
+    "rule_title": "SHOT CLOCK"
+  },
+  "rule_07_section_II_chunk_060": {
+    "parent_id": "parent_rule_07",
+    "parent_rule": 7,
+    "rule_title": "SHOT CLOCK"
+  },
+  "rule_07_section_II_chunk_061": {
+    "parent_id": "parent_rule_07",
+    "parent_rule": 7,
+    "rule_title": "SHOT CLOCK"
+  },
+  "rule_07_section_III_chunk_062": {
+    "parent_id": "parent_rule_07",
+    "parent_rule": 7,
+    "rule_title": "SHOT CLOCK"
+  },
+  "rule_07_section_IV_chunk_063": {
+    "parent_id": "parent_rule_07",
+    "parent_rule": 7,
+    "rule_title": "SHOT CLOCK"
+  },
+  "rule_07_section_IV_chunk_064": {
+    "parent_id": "parent_rule_07",
+    "parent_rule": 7,
+    "rule_title": "SHOT CLOCK"
+  },
+  "rule_08_section_I_chunk_065": {
+    "parent_id": "parent_rule_08",
+    "parent_rule": 8,
+    "rule_title": "OUT-OF-BOUNDS AND THROW-IN"
+  },
+  "rule_08_section_II_chunk_066": {
+    "parent_id": "parent_rule_08",
+    "parent_rule": 8,
+    "rule_title": "OUT-OF-BOUNDS AND THROW-IN"
+  },
+  "rule_08_section_III_chunk_067": {
+    "parent_id": "parent_rule_08",
+    "parent_rule": 8,
+    "rule_title": "OUT-OF-BOUNDS AND THROW-IN"
+  },
+  "rule_08_section_III_chunk_068": {
+    "parent_id": "parent_rule_08",
+    "parent_rule": 8,
+    "rule_title": "OUT-OF-BOUNDS AND THROW-IN"
+  },
+  "rule_09_section_I_chunk_069": {
+    "parent_id": "parent_rule_09",
+    "parent_rule": 9,
+    "rule_title": "FREE THROWS AND PENALTIES"
+  },
+  "rule_09_section_I_chunk_070": {
+    "parent_id": "parent_rule_09",
+    "parent_rule": 9,
+    "rule_title": "FREE THROWS AND PENALTIES"
+  },
+  "rule_09_section_I_chunk_071": {
+    "parent_id": "parent_rule_09",
+    "parent_rule": 9,
+    "rule_title": "FREE THROWS AND PENALTIES"
+  },
+  "rule_09_section_II_chunk_072": {
+    "parent_id": "parent_rule_09",
+    "parent_rule": 9,
+    "rule_title": "FREE THROWS AND PENALTIES"
+  },
+  "rule_09_section_II_chunk_073": {
+    "parent_id": "parent_rule_09",
+    "parent_rule": 9,
+    "rule_title": "FREE THROWS AND PENALTIES"
+  },
+  "rule_09_section_III_chunk_074": {
+    "parent_id": "parent_rule_09",
+    "parent_rule": 9,
+    "rule_title": "FREE THROWS AND PENALTIES"
+  },
+  "rule_10_section_I_chunk_075": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_II_chunk_076": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_III_chunk_077": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_IV_chunk_078": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_V_chunk_079": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_VI_chunk_080": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_VII_chunk_081": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_VIII_chunk_082": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_IX_chunk_083": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_X_chunk_084": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_XI_chunk_085": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_XII_chunk_086": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_XIII_chunk_087": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_XIII_chunk_088": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_XIV_chunk_089": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_XV_chunk_090": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_XVI_chunk_091": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_10_section_XVII_chunk_092": {
+    "parent_id": "parent_rule_10",
+    "parent_rule": 10,
+    "rule_title": "VIOLATIONS AND PENALTIES"
+  },
+  "rule_11_section_I_chunk_093": {
+    "parent_id": "parent_rule_11",
+    "parent_rule": 11,
+    "rule_title": "BASKET INTERFERENCE\u2014GOALTENDING"
+  },
+  "rule_11_section_I_chunk_094": {
+    "parent_id": "parent_rule_11",
+    "parent_rule": 11,
+    "rule_title": "BASKET INTERFERENCE\u2014GOALTENDING"
+  },
+  "rule_12_section_I_chunk_095": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_II_chunk_096": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_III_chunk_097": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_III_chunk_098": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_IV_chunk_099": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_V_chunk_100": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_V_chunk_101": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_V_chunk_102": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_VI_chunk_103": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_VII_chunk_104": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_VII_chunk_105": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_VII_chunk_106": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_I_chunk_107": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_I_chunk_108": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_I_chunk_109": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_II_chunk_110": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_III_chunk_111": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_IV_chunk_112": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_V_chunk_113": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_VI_chunk_114": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_VII_chunk_115": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_VIII_chunk_116": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_IX_chunk_117": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_X_chunk_118": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_12_section_XI_chunk_119": {
+    "parent_id": "parent_rule_12",
+    "parent_rule": 12,
+    "rule_title": "FOULS AND PENALTIES"
+  },
+  "rule_13_section_I_chunk_120": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_13_section_I_chunk_121": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_13_section_I_chunk_122": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_13_section_II_chunk_123": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_13_section_II_chunk_124": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_13_section_II_chunk_125": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_13_section_II_chunk_126": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_13_section_II_chunk_127": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_13_section_II_chunk_128": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_13_section_II_chunk_129": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_13_section_II_chunk_130": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_13_section_II_chunk_131": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_13_section_II_chunk_132": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_13_section_III_chunk_133": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_13_section_III_chunk_134": {
+    "parent_id": "parent_rule_13",
+    "parent_rule": 13,
+    "rule_title": "INSTANT REPLAY"
+  },
+  "rule_14_section_I_chunk_135": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_II_chunk_136": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_II_chunk_137": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_III_chunk_138": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_III_chunk_139": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_III_chunk_140": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_IV_chunk_141": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_V_chunk_142": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_V_chunk_143": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_V_chunk_144": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_VI_chunk_145": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_VI_chunk_146": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_VI_chunk_147": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_VI_chunk_148": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_VI_chunk_149": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_VI_chunk_150": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_VI_chunk_151": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_VI_chunk_152": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_VI_chunk_153": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_VI_chunk_154": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  },
+  "rule_14_section_VI_chunk_155": {
+    "parent_id": "parent_rule_14",
+    "parent_rule": 14,
+    "rule_title": "COACH\u2019S CHALLENGE"
+  }
+}

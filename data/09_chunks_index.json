@@ -1,0 +1,932 @@
+{
+  "rule_01_section_I_chunk_001": {
+    "index": 1,
+    "rule": 1,
+    "section": "I",
+    "page": 3
+  },
+  "rule_01_section_II_chunk_002": {
+    "index": 2,
+    "rule": 1,
+    "section": "II",
+    "page": 3
+  },
+  "rule_02_section_I_chunk_003": {
+    "index": 3,
+    "rule": 2,
+    "section": "I",
+    "page": 4
+  },
+  "rule_02_section_II_chunk_004": {
+    "index": 4,
+    "rule": 2,
+    "section": "II",
+    "page": 4
+  },
+  "rule_02_section_II_chunk_005": {
+    "index": 5,
+    "rule": 2,
+    "section": "II",
+    "page": 4
+  },
+  "rule_02_section_III_chunk_006": {
+    "index": 6,
+    "rule": 2,
+    "section": "III",
+    "page": 5
+  },
+  "rule_02_section_IV_chunk_007": {
+    "index": 7,
+    "rule": 2,
+    "section": "IV",
+    "page": 5
+  },
+  "rule_02_section_V_chunk_008": {
+    "index": 8,
+    "rule": 2,
+    "section": "V",
+    "page": 5
+  },
+  "rule_02_section_VI_chunk_009": {
+    "index": 9,
+    "rule": 2,
+    "section": "VI",
+    "page": 6
+  },
+  "rule_02_section_VI_chunk_010": {
+    "index": 10,
+    "rule": 2,
+    "section": "VI",
+    "page": 6
+  },
+  "rule_02_section_VII_chunk_011": {
+    "index": 11,
+    "rule": 2,
+    "section": "VII",
+    "page": 7
+  },
+  "rule_02_section_VII_chunk_012": {
+    "index": 12,
+    "rule": 2,
+    "section": "VII",
+    "page": 7
+  },
+  "rule_02_section_VIII_chunk_013": {
+    "index": 13,
+    "rule": 2,
+    "section": "VIII",
+    "page": 8
+  },
+  "rule_02_section_VIII_chunk_014": {
+    "index": 14,
+    "rule": 2,
+    "section": "VIII",
+    "page": 8
+  },
+  "rule_03_section_I_chunk_015": {
+    "index": 15,
+    "rule": 3,
+    "section": "I",
+    "page": 9
+  },
+  "rule_03_section_II_chunk_016": {
+    "index": 16,
+    "rule": 3,
+    "section": "II",
+    "page": 10
+  },
+  "rule_03_section_III_chunk_017": {
+    "index": 17,
+    "rule": 3,
+    "section": "III",
+    "page": 10
+  },
+  "rule_03_section_IV_chunk_018": {
+    "index": 18,
+    "rule": 3,
+    "section": "IV",
+    "page": 10
+  },
+  "rule_03_section_V_chunk_019": {
+    "index": 19,
+    "rule": 3,
+    "section": "V",
+    "page": 10
+  },
+  "rule_03_section_V_chunk_020": {
+    "index": 20,
+    "rule": 3,
+    "section": "V",
+    "page": 10
+  },
+  "rule_03_section_VI_chunk_021": {
+    "index": 21,
+    "rule": 3,
+    "section": "VI",
+    "page": 12
+  },
+  "rule_04_section_I_chunk_022": {
+    "index": 22,
+    "rule": 4,
+    "section": "I",
+    "page": 12
+  },
+  "rule_04_section_II_chunk_023": {
+    "index": 23,
+    "rule": 4,
+    "section": "II",
+    "page": 12
+  },
+  "rule_04_section_III_chunk_024": {
+    "index": 24,
+    "rule": 4,
+    "section": "III",
+    "page": 12
+  },
+  "rule_04_section_IV_chunk_025": {
+    "index": 25,
+    "rule": 4,
+    "section": "IV",
+    "page": 12
+  },
+  "rule_04_section_IV_chunk_026": {
+    "index": 26,
+    "rule": 4,
+    "section": "IV",
+    "page": 12
+  },
+  "rule_04_section_V_chunk_027": {
+    "index": 27,
+    "rule": 4,
+    "section": "V",
+    "page": 13
+  },
+  "rule_04_section_VI_chunk_028": {
+    "index": 28,
+    "rule": 4,
+    "section": "VI",
+    "page": 14
+  },
+  "rule_04_section_VII_chunk_029": {
+    "index": 29,
+    "rule": 4,
+    "section": "VII",
+    "page": 14
+  },
+  "rule_04_section_VIII_chunk_030": {
+    "index": 30,
+    "rule": 4,
+    "section": "VIII",
+    "page": 14
+  },
+  "rule_04_section_IX_chunk_031": {
+    "index": 31,
+    "rule": 4,
+    "section": "IX",
+    "page": 14
+  },
+  "rule_04_section_X_chunk_032": {
+    "index": 32,
+    "rule": 4,
+    "section": "X",
+    "page": 14
+  },
+  "rule_04_section_XI_chunk_033": {
+    "index": 33,
+    "rule": 4,
+    "section": "XI",
+    "page": 14
+  },
+  "rule_04_section_XII_chunk_034": {
+    "index": 34,
+    "rule": 4,
+    "section": "XII",
+    "page": 15
+  },
+  "rule_04_section_XIII_chunk_035": {
+    "index": 35,
+    "rule": 4,
+    "section": "XIII",
+    "page": 15
+  },
+  "rule_04_section_XIV_chunk_036": {
+    "index": 36,
+    "rule": 4,
+    "section": "XIV",
+    "page": 15
+  },
+  "rule_04_section_XV_chunk_037": {
+    "index": 37,
+    "rule": 4,
+    "section": "XV",
+    "page": 15
+  },
+  "rule_04_section_XVI_chunk_038": {
+    "index": 38,
+    "rule": 4,
+    "section": "XVI",
+    "page": 15
+  },
+  "rule_04_section_XVII_chunk_039": {
+    "index": 39,
+    "rule": 4,
+    "section": "XVII",
+    "page": 16
+  },
+  "rule_04_section_XVIII_chunk_040": {
+    "index": 40,
+    "rule": 4,
+    "section": "XVIII",
+    "page": 16
+  },
+  "rule_05_section_I_chunk_041": {
+    "index": 41,
+    "rule": 5,
+    "section": "I",
+    "page": 16
+  },
+  "rule_05_section_II_chunk_042": {
+    "index": 42,
+    "rule": 5,
+    "section": "II",
+    "page": 16
+  },
+  "rule_05_section_III_chunk_043": {
+    "index": 43,
+    "rule": 5,
+    "section": "III",
+    "page": 17
+  },
+  "rule_05_section_IV_chunk_044": {
+    "index": 44,
+    "rule": 5,
+    "section": "IV",
+    "page": 17
+  },
+  "rule_05_section_V_chunk_045": {
+    "index": 45,
+    "rule": 5,
+    "section": "V",
+    "page": 17
+  },
+  "rule_05_section_VI_chunk_046": {
+    "index": 46,
+    "rule": 5,
+    "section": "VI",
+    "page": 17
+  },
+  "rule_05_section_VI_chunk_047": {
+    "index": 47,
+    "rule": 5,
+    "section": "VI",
+    "page": 17
+  },
+  "rule_05_section_VI_chunk_048": {
+    "index": 48,
+    "rule": 5,
+    "section": "VI",
+    "page": 17
+  },
+  "rule_05_section_VII_chunk_049": {
+    "index": 49,
+    "rule": 5,
+    "section": "VII",
+    "page": 19
+  },
+  "rule_05_section_VIII_chunk_050": {
+    "index": 50,
+    "rule": 5,
+    "section": "VIII",
+    "page": 19
+  },
+  "rule_06_section_I_chunk_051": {
+    "index": 51,
+    "rule": 6,
+    "section": "I",
+    "page": 20
+  },
+  "rule_06_section_I_chunk_052": {
+    "index": 52,
+    "rule": 6,
+    "section": "I",
+    "page": 20
+  },
+  "rule_06_section_II_chunk_053": {
+    "index": 53,
+    "rule": 6,
+    "section": "II",
+    "page": 21
+  },
+  "rule_06_section_III_chunk_054": {
+    "index": 54,
+    "rule": 6,
+    "section": "III",
+    "page": 21
+  },
+  "rule_06_section_IV_chunk_055": {
+    "index": 55,
+    "rule": 6,
+    "section": "IV",
+    "page": 21
+  },
+  "rule_06_section_V_chunk_056": {
+    "index": 56,
+    "rule": 6,
+    "section": "V",
+    "page": 21
+  },
+  "rule_06_section_VI_chunk_057": {
+    "index": 57,
+    "rule": 6,
+    "section": "VI",
+    "page": 21
+  },
+  "rule_06_section_VII_chunk_058": {
+    "index": 58,
+    "rule": 6,
+    "section": "VII",
+    "page": 22
+  },
+  "rule_07_section_I_chunk_059": {
+    "index": 59,
+    "rule": 7,
+    "section": "I",
+    "page": 22
+  },
+  "rule_07_section_II_chunk_060": {
+    "index": 60,
+    "rule": 7,
+    "section": "II",
+    "page": 22
+  },
+  "rule_07_section_II_chunk_061": {
+    "index": 61,
+    "rule": 7,
+    "section": "II",
+    "page": 22
+  },
+  "rule_07_section_III_chunk_062": {
+    "index": 62,
+    "rule": 7,
+    "section": "III",
+    "page": 23
+  },
+  "rule_07_section_IV_chunk_063": {
+    "index": 63,
+    "rule": 7,
+    "section": "IV",
+    "page": 24
+  },
+  "rule_07_section_IV_chunk_064": {
+    "index": 64,
+    "rule": 7,
+    "section": "IV",
+    "page": 24
+  },
+  "rule_08_section_I_chunk_065": {
+    "index": 65,
+    "rule": 8,
+    "section": "I",
+    "page": 25
+  },
+  "rule_08_section_II_chunk_066": {
+    "index": 66,
+    "rule": 8,
+    "section": "II",
+    "page": 25
+  },
+  "rule_08_section_III_chunk_067": {
+    "index": 67,
+    "rule": 8,
+    "section": "III",
+    "page": 25
+  },
+  "rule_08_section_III_chunk_068": {
+    "index": 68,
+    "rule": 8,
+    "section": "III",
+    "page": 25
+  },
+  "rule_09_section_I_chunk_069": {
+    "index": 69,
+    "rule": 9,
+    "section": "I",
+    "page": 26
+  },
+  "rule_09_section_I_chunk_070": {
+    "index": 70,
+    "rule": 9,
+    "section": "I",
+    "page": 26
+  },
+  "rule_09_section_I_chunk_071": {
+    "index": 71,
+    "rule": 9,
+    "section": "I",
+    "page": 26
+  },
+  "rule_09_section_II_chunk_072": {
+    "index": 72,
+    "rule": 9,
+    "section": "II",
+    "page": 28
+  },
+  "rule_09_section_II_chunk_073": {
+    "index": 73,
+    "rule": 9,
+    "section": "II",
+    "page": 28
+  },
+  "rule_09_section_III_chunk_074": {
+    "index": 74,
+    "rule": 9,
+    "section": "III",
+    "page": 29
+  },
+  "rule_10_section_I_chunk_075": {
+    "index": 75,
+    "rule": 10,
+    "section": "I",
+    "page": 29
+  },
+  "rule_10_section_II_chunk_076": {
+    "index": 76,
+    "rule": 10,
+    "section": "II",
+    "page": 29
+  },
+  "rule_10_section_III_chunk_077": {
+    "index": 77,
+    "rule": 10,
+    "section": "III",
+    "page": 30
+  },
+  "rule_10_section_IV_chunk_078": {
+    "index": 78,
+    "rule": 10,
+    "section": "IV",
+    "page": 30
+  },
+  "rule_10_section_V_chunk_079": {
+    "index": 79,
+    "rule": 10,
+    "section": "V",
+    "page": 30
+  },
+  "rule_10_section_VI_chunk_080": {
+    "index": 80,
+    "rule": 10,
+    "section": "VI",
+    "page": 31
+  },
+  "rule_10_section_VII_chunk_081": {
+    "index": 81,
+    "rule": 10,
+    "section": "VII",
+    "page": 31
+  },
+  "rule_10_section_VIII_chunk_082": {
+    "index": 82,
+    "rule": 10,
+    "section": "VIII",
+    "page": 32
+  },
+  "rule_10_section_IX_chunk_083": {
+    "index": 83,
+    "rule": 10,
+    "section": "IX",
+    "page": 32
+  },
+  "rule_10_section_X_chunk_084": {
+    "index": 84,
+    "rule": 10,
+    "section": "X",
+    "page": 32
+  },
+  "rule_10_section_XI_chunk_085": {
+    "index": 85,
+    "rule": 10,
+    "section": "XI",
+    "page": 32
+  },
+  "rule_10_section_XII_chunk_086": {
+    "index": 86,
+    "rule": 10,
+    "section": "XII",
+    "page": 32
+  },
+  "rule_10_section_XIII_chunk_087": {
+    "index": 87,
+    "rule": 10,
+    "section": "XIII",
+    "page": 32
+  },
+  "rule_10_section_XIII_chunk_088": {
+    "index": 88,
+    "rule": 10,
+    "section": "XIII",
+    "page": 32
+  },
+  "rule_10_section_XIV_chunk_089": {
+    "index": 89,
+    "rule": 10,
+    "section": "XIV",
+    "page": 33
+  },
+  "rule_10_section_XV_chunk_090": {
+    "index": 90,
+    "rule": 10,
+    "section": "XV",
+    "page": 33
+  },
+  "rule_10_section_XVI_chunk_091": {
+    "index": 91,
+    "rule": 10,
+    "section": "XVI",
+    "page": 34
+  },
+  "rule_10_section_XVII_chunk_092": {
+    "index": 92,
+    "rule": 10,
+    "section": "XVII",
+    "page": 34
+  },
+  "rule_11_section_I_chunk_093": {
+    "index": 93,
+    "rule": 11,
+    "section": "I",
+    "page": 34
+  },
+  "rule_11_section_I_chunk_094": {
+    "index": 94,
+    "rule": 11,
+    "section": "I",
+    "page": 34
+  },
+  "rule_12_section_I_chunk_095": {
+    "index": 95,
+    "rule": 12,
+    "section": "I",
+    "page": 35
+  },
+  "rule_12_section_II_chunk_096": {
+    "index": 96,
+    "rule": 12,
+    "section": "II",
+    "page": 35
+  },
+  "rule_12_section_III_chunk_097": {
+    "index": 97,
+    "rule": 12,
+    "section": "III",
+    "page": 36
+  },
+  "rule_12_section_III_chunk_098": {
+    "index": 98,
+    "rule": 12,
+    "section": "III",
+    "page": 36
+  },
+  "rule_12_section_IV_chunk_099": {
+    "index": 99,
+    "rule": 12,
+    "section": "IV",
+    "page": 36
+  },
+  "rule_12_section_V_chunk_100": {
+    "index": 100,
+    "rule": 12,
+    "section": "V",
+    "page": 37
+  },
+  "rule_12_section_V_chunk_101": {
+    "index": 101,
+    "rule": 12,
+    "section": "V",
+    "page": 37
+  },
+  "rule_12_section_V_chunk_102": {
+    "index": 102,
+    "rule": 12,
+    "section": "V",
+    "page": 37
+  },
+  "rule_12_section_VI_chunk_103": {
+    "index": 103,
+    "rule": 12,
+    "section": "VI",
+    "page": 39
+  },
+  "rule_12_section_VII_chunk_104": {
+    "index": 104,
+    "rule": 12,
+    "section": "VII",
+    "page": 39
+  },
+  "rule_12_section_VII_chunk_105": {
+    "index": 105,
+    "rule": 12,
+    "section": "VII",
+    "page": 39
+  },
+  "rule_12_section_VII_chunk_106": {
+    "index": 106,
+    "rule": 12,
+    "section": "VII",
+    "page": 39
+  },
+  "rule_12_section_I_chunk_107": {
+    "index": 107,
+    "rule": 12,
+    "section": "I",
+    "page": 40
+  },
+  "rule_12_section_I_chunk_108": {
+    "index": 108,
+    "rule": 12,
+    "section": "I",
+    "page": 40
+  },
+  "rule_12_section_I_chunk_109": {
+    "index": 109,
+    "rule": 12,
+    "section": "I",
+    "page": 40
+  },
+  "rule_12_section_II_chunk_110": {
+    "index": 110,
+    "rule": 12,
+    "section": "II",
+    "page": 42
+  },
+  "rule_12_section_III_chunk_111": {
+    "index": 111,
+    "rule": 12,
+    "section": "III",
+    "page": 43
+  },
+  "rule_12_section_IV_chunk_112": {
+    "index": 112,
+    "rule": 12,
+    "section": "IV",
+    "page": 43
+  },
+  "rule_12_section_V_chunk_113": {
+    "index": 113,
+    "rule": 12,
+    "section": "V",
+    "page": 43
+  },
+  "rule_12_section_VI_chunk_114": {
+    "index": 114,
+    "rule": 12,
+    "section": "VI",
+    "page": 44
+  },
+  "rule_12_section_VII_chunk_115": {
+    "index": 115,
+    "rule": 12,
+    "section": "VII",
+    "page": 45
+  },
+  "rule_12_section_VIII_chunk_116": {
+    "index": 116,
+    "rule": 12,
+    "section": "VIII",
+    "page": 45
+  },
+  "rule_12_section_IX_chunk_117": {
+    "index": 117,
+    "rule": 12,
+    "section": "IX",
+    "page": 46
+  },
+  "rule_12_section_X_chunk_118": {
+    "index": 118,
+    "rule": 12,
+    "section": "X",
+    "page": 46
+  },
+  "rule_12_section_XI_chunk_119": {
+    "index": 119,
+    "rule": 12,
+    "section": "XI",
+    "page": 47
+  },
+  "rule_13_section_I_chunk_120": {
+    "index": 120,
+    "rule": 13,
+    "section": "I",
+    "page": 47
+  },
+  "rule_13_section_I_chunk_121": {
+    "index": 121,
+    "rule": 13,
+    "section": "I",
+    "page": 47
+  },
+  "rule_13_section_I_chunk_122": {
+    "index": 122,
+    "rule": 13,
+    "section": "I",
+    "page": 47
+  },
+  "rule_13_section_II_chunk_123": {
+    "index": 123,
+    "rule": 13,
+    "section": "II",
+    "page": 49
+  },
+  "rule_13_section_II_chunk_124": {
+    "index": 124,
+    "rule": 13,
+    "section": "II",
+    "page": 49
+  },
+  "rule_13_section_II_chunk_125": {
+    "index": 125,
+    "rule": 13,
+    "section": "II",
+    "page": 49
+  },
+  "rule_13_section_II_chunk_126": {
+    "index": 126,
+    "rule": 13,
+    "section": "II",
+    "page": 49
+  },
+  "rule_13_section_II_chunk_127": {
+    "index": 127,
+    "rule": 13,
+    "section": "II",
+    "page": 49
+  },
+  "rule_13_section_II_chunk_128": {
+    "index": 128,
+    "rule": 13,
+    "section": "II",
+    "page": 49
+  },
+  "rule_13_section_II_chunk_129": {
+    "index": 129,
+    "rule": 13,
+    "section": "II",
+    "page": 49
+  },
+  "rule_13_section_II_chunk_130": {
+    "index": 130,
+    "rule": 13,
+    "section": "II",
+    "page": 49
+  },
+  "rule_13_section_II_chunk_131": {
+    "index": 131,
+    "rule": 13,
+    "section": "II",
+    "page": 49
+  },
+  "rule_13_section_II_chunk_132": {
+    "index": 132,
+    "rule": 13,
+    "section": "II",
+    "page": 49
+  },
+  "rule_13_section_III_chunk_133": {
+    "index": 133,
+    "rule": 13,
+    "section": "III",
+    "page": 57
+  },
+  "rule_13_section_III_chunk_134": {
+    "index": 134,
+    "rule": 13,
+    "section": "III",
+    "page": 57
+  },
+  "rule_14_section_I_chunk_135": {
+    "index": 135,
+    "rule": 14,
+    "section": "I",
+    "page": 58
+  },
+  "rule_14_section_II_chunk_136": {
+    "index": 136,
+    "rule": 14,
+    "section": "II",
+    "page": 58
+  },
+  "rule_14_section_II_chunk_137": {
+    "index": 137,
+    "rule": 14,
+    "section": "II",
+    "page": 58
+  },
+  "rule_14_section_III_chunk_138": {
+    "index": 138,
+    "rule": 14,
+    "section": "III",
+    "page": 59
+  },
+  "rule_14_section_III_chunk_139": {
+    "index": 139,
+    "rule": 14,
+    "section": "III",
+    "page": 59
+  },
+  "rule_14_section_III_chunk_140": {
+    "index": 140,
+    "rule": 14,
+    "section": "III",
+    "page": 59
+  },
+  "rule_14_section_IV_chunk_141": {
+    "index": 141,
+    "rule": 14,
+    "section": "IV",
+    "page": 61
+  },
+  "rule_14_section_V_chunk_142": {
+    "index": 142,
+    "rule": 14,
+    "section": "V",
+    "page": 62
+  },
+  "rule_14_section_V_chunk_143": {
+    "index": 143,
+    "rule": 14,
+    "section": "V",
+    "page": 62
+  },
+  "rule_14_section_V_chunk_144": {
+    "index": 144,
+    "rule": 14,
+    "section": "V",
+    "page": 62
+  },
+  "rule_14_section_VI_chunk_145": {
+    "index": 145,
+    "rule": 14,
+    "section": "VI",
+    "page": 63
+  },
+  "rule_14_section_VI_chunk_146": {
+    "index": 146,
+    "rule": 14,
+    "section": "VI",
+    "page": 63
+  },
+  "rule_14_section_VI_chunk_147": {
+    "index": 147,
+    "rule": 14,
+    "section": "VI",
+    "page": 63
+  },
+  "rule_14_section_VI_chunk_148": {
+    "index": 148,
+    "rule": 14,
+    "section": "VI",
+    "page": 63
+  },
+  "rule_14_section_VI_chunk_149": {
+    "index": 149,
+    "rule": 14,
+    "section": "VI",
+    "page": 63
+  },
+  "rule_14_section_VI_chunk_150": {
+    "index": 150,
+    "rule": 14,
+    "section": "VI",
+    "page": 63
+  },
+  "rule_14_section_VI_chunk_151": {
+    "index": 151,
+    "rule": 14,
+    "section": "VI",
+    "page": 63
+  },
+  "rule_14_section_VI_chunk_152": {
+    "index": 152,
+    "rule": 14,
+    "section": "VI",
+    "page": 63
+  },
+  "rule_14_section_VI_chunk_153": {
+    "index": 153,
+    "rule": 14,
+    "section": "VI",
+    "page": 63
+  },
+  "rule_14_section_VI_chunk_154": {
+    "index": 154,
+    "rule": 14,
+    "section": "VI",
+    "page": 63
+  },
+  "rule_14_section_VI_chunk_155": {
+    "index": 155,
+    "rule": 14,
+    "section": "VI",
+    "page": 63
+  }
+}

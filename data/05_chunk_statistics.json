@@ -1,0 +1,10 @@
+{
+  "total_rules": 14,
+  "total_sections": 104,
+  "total_chunks": 155,
+  "total_tokens": 49774,
+  "avg_tokens_per_chunk": 321,
+  "min_tokens": 26,
+  "max_tokens": 593,
+  "chunks_with_overlap": 51
+}

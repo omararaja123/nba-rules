@@ -1,0 +1,156 @@
+chunk_id,rule_number,rule_title,section_number,section_title,page_number,token_count
+rule_01_section_I_chunk_001,1,COURT DIMENSIONS—EQUIPMENT,I,Court and Dimensions,3,452
+rule_01_section_II_chunk_002,1,COURT DIMENSIONS—EQUIPMENT,II,Equipment,3,370
+rule_02_section_I_chunk_003,2,OFFICIALS AND THEIR DUTIES,I,The Game Officials,4,137
+rule_02_section_II_chunk_004,2,OFFICIALS AND THEIR DUTIES,II,Duties of the Officials,4,512
+rule_02_section_II_chunk_005,2,OFFICIALS AND THEIR DUTIES,II,Duties of the Officials,4,196
+rule_02_section_III_chunk_006,2,OFFICIALS AND THEIR DUTIES,III,Elastic Power,5,44
+rule_02_section_IV_chunk_007,2,OFFICIALS AND THEIR DUTIES,IV,Different Decisions by Officials,5,320
+rule_02_section_V_chunk_008,2,OFFICIALS AND THEIR DUTIES,V,Time and Place for Decisions,5,319
+rule_02_section_VI_chunk_009,2,OFFICIALS AND THEIR DUTIES,VI,Correcting Errors,6,512
+rule_02_section_VI_chunk_010,2,OFFICIALS AND THEIR DUTIES,VI,Correcting Errors,6,412
+rule_02_section_VII_chunk_011,2,OFFICIALS AND THEIR DUTIES,VII,Duties of Scorers,7,512
+rule_02_section_VII_chunk_012,2,OFFICIALS AND THEIR DUTIES,VII,Duties of Scorers,7,214
+rule_02_section_VIII_chunk_013,2,OFFICIALS AND THEIR DUTIES,VIII,Duties of Timers,8,512
+rule_02_section_VIII_chunk_014,2,OFFICIALS AND THEIR DUTIES,VIII,Duties of Timers,8,118
+rule_03_section_I_chunk_015,3,"PLAYERS, SUBSTITUTES, AND COACHES",I,Team,9,308
+rule_03_section_II_chunk_016,3,"PLAYERS, SUBSTITUTES, AND COACHES",II,Starting Line-Ups,10,58
+rule_03_section_III_chunk_017,3,"PLAYERS, SUBSTITUTES, AND COACHES",III,The Captain,10,140
+rule_03_section_IV_chunk_018,3,"PLAYERS, SUBSTITUTES, AND COACHES",IV,The Coach and Others,10,362
+rule_03_section_V_chunk_019,3,"PLAYERS, SUBSTITUTES, AND COACHES",V,Substitutes,10,512
+rule_03_section_V_chunk_020,3,"PLAYERS, SUBSTITUTES, AND COACHES",V,Substitutes,10,372
+rule_03_section_VI_chunk_021,3,"PLAYERS, SUBSTITUTES, AND COACHES",VI,Uniforms,12,168
+rule_04_section_I_chunk_022,4,DEFINITIONS,I,Basket/Backboard,12,181
+rule_04_section_II_chunk_023,4,DEFINITIONS,II,Dribble,12,155
+rule_04_section_III_chunk_024,4,DEFINITIONS,III,The Gather,12,187
+rule_04_section_IV_chunk_025,4,DEFINITIONS,IV,Fouls,12,512
+rule_04_section_IV_chunk_026,4,DEFINITIONS,IV,Fouls,12,204
+rule_04_section_V_chunk_027,4,DEFINITIONS,V,Free Throw,13,49
+rule_04_section_VI_chunk_028,4,DEFINITIONS,VI,Frontcourt/Backcourt,14,376
+rule_04_section_VII_chunk_029,4,DEFINITIONS,VII,Held Ball,14,112
+rule_04_section_VIII_chunk_030,4,DEFINITIONS,VIII,Pivot,14,128
+rule_04_section_IX_chunk_031,4,DEFINITIONS,IX,Traveling,14,46
+rule_04_section_X_chunk_032,4,DEFINITIONS,X,Screen,14,34
+rule_04_section_XI_chunk_033,4,DEFINITIONS,XI,Field Goal Attempt,14,294
+rule_04_section_XII_chunk_034,4,DEFINITIONS,XII,Throw-In,15,66
+rule_04_section_XIII_chunk_035,4,DEFINITIONS,XIII,Last Two Minutes,15,29
+rule_04_section_XIV_chunk_036,4,DEFINITIONS,XIV,Suspension of Play,15,244
+rule_04_section_XV_chunk_037,4,DEFINITIONS,XV,Point of Interruption,15,26
+rule_04_section_XVI_chunk_038,4,DEFINITIONS,XVI,Team Control,15,45
+rule_04_section_XVII_chunk_039,4,DEFINITIONS,XVII,Team Possession,16,51
+rule_04_section_XVIII_chunk_040,4,DEFINITIONS,XVIII,Fumble,16,79
+rule_05_section_I_chunk_041,5,SCORING AND TIMING,I,Scoring,16,327
+rule_05_section_II_chunk_042,5,SCORING AND TIMING,II,Timing,16,216
+rule_05_section_III_chunk_043,5,SCORING AND TIMING,III,End of Period,17,267
+rule_05_section_IV_chunk_044,5,SCORING AND TIMING,IV,Tie Score—Overtime,17,44
+rule_05_section_V_chunk_045,5,SCORING AND TIMING,V,Stoppage of Timing Devices,17,107
+rule_05_section_VI_chunk_046,5,SCORING AND TIMING,VI,Timeouts – Mandatory/Team,17,512
+rule_05_section_VI_chunk_047,5,SCORING AND TIMING,VI,Timeouts – Mandatory/Team,17,575
+rule_05_section_VI_chunk_048,5,SCORING AND TIMING,VI,Timeouts – Mandatory/Team,17,83
+rule_05_section_VII_chunk_049,5,SCORING AND TIMING,VII,Timeout Requests,19,474
+rule_05_section_VIII_chunk_050,5,SCORING AND TIMING,VIII,Time-In,19,125
+rule_06_section_I_chunk_051,6,PUTTING BALL IN PLAY—LIVE/DEAD BALL,I,Start of Games/Periods and Others,20,512
+rule_06_section_I_chunk_052,6,PUTTING BALL IN PLAY—LIVE/DEAD BALL,I,Start of Games/Periods and Others,20,323
+rule_06_section_II_chunk_053,6,PUTTING BALL IN PLAY—LIVE/DEAD BALL,II,Live Ball,21,61
+rule_06_section_III_chunk_054,6,PUTTING BALL IN PLAY—LIVE/DEAD BALL,III,Ball is Alive,21,66
+rule_06_section_IV_chunk_055,6,PUTTING BALL IN PLAY—LIVE/DEAD BALL,IV,Dead Ball,21,161
+rule_06_section_V_chunk_056,6,PUTTING BALL IN PLAY—LIVE/DEAD BALL,V,Jump Balls in Center Circle,21,296
+rule_06_section_VI_chunk_057,6,PUTTING BALL IN PLAY—LIVE/DEAD BALL,VI,Other Jump Balls,21,216
+rule_06_section_VII_chunk_058,6,PUTTING BALL IN PLAY—LIVE/DEAD BALL,VII,Restrictions Governing Jump Balls,22,337
+rule_07_section_I_chunk_059,7,SHOT CLOCK,I,Definition,22,84
+rule_07_section_II_chunk_060,7,SHOT CLOCK,II,Starting and Stopping of Shot Clock,22,512
+rule_07_section_II_chunk_061,7,SHOT CLOCK,II,Starting and Stopping of Shot Clock,22,300
+rule_07_section_III_chunk_062,7,SHOT CLOCK,III,Putting Ball In Play After Violation,23,65
+rule_07_section_IV_chunk_063,7,SHOT CLOCK,IV,Resetting Shot Clock,24,512
+rule_07_section_IV_chunk_064,7,SHOT CLOCK,IV,Resetting Shot Clock,24,228
+rule_08_section_I_chunk_065,8,OUT-OF-BOUNDS AND THROW-IN,I,Player,25,87
+rule_08_section_II_chunk_066,8,OUT-OF-BOUNDS AND THROW-IN,II,Ball,25,379
+rule_08_section_III_chunk_067,8,OUT-OF-BOUNDS AND THROW-IN,III,The Throw-In,25,512
+rule_08_section_III_chunk_068,8,OUT-OF-BOUNDS AND THROW-IN,III,The Throw-In,25,94
+rule_09_section_I_chunk_069,9,FREE THROWS AND PENALTIES,I,Positions and Violations,26,512
+rule_09_section_I_chunk_070,9,FREE THROWS AND PENALTIES,I,Positions and Violations,26,589
+rule_09_section_I_chunk_071,9,FREE THROWS AND PENALTIES,I,Positions and Violations,26,569
+rule_09_section_II_chunk_072,9,FREE THROWS AND PENALTIES,II,Shooting of Free Throw,28,512
+rule_09_section_II_chunk_073,9,FREE THROWS AND PENALTIES,II,Shooting of Free Throw,28,97
+rule_09_section_III_chunk_074,9,FREE THROWS AND PENALTIES,III,Next Play,29,109
+rule_10_section_I_chunk_075,10,VIOLATIONS AND PENALTIES,I,Out-of-Bounds,29,95
+rule_10_section_II_chunk_076,10,VIOLATIONS AND PENALTIES,II,Dribble,29,283
+rule_10_section_III_chunk_077,10,VIOLATIONS AND PENALTIES,III,Thrower-in,30,233
+rule_10_section_IV_chunk_078,10,VIOLATIONS AND PENALTIES,IV,Strike the Ball,30,222
+rule_10_section_V_chunk_079,10,VIOLATIONS AND PENALTIES,V,Jump Ball,30,193
+rule_10_section_VI_chunk_080,10,VIOLATIONS AND PENALTIES,VI,Offensive Three-Second Rule,31,232
+rule_10_section_VII_chunk_081,10,VIOLATIONS AND PENALTIES,VII,Defensive Three-Second Rule,31,372
+rule_10_section_VIII_chunk_082,10,VIOLATIONS AND PENALTIES,VIII,Eight-Second Rule,32,193
+rule_10_section_IX_chunk_083,10,VIOLATIONS AND PENALTIES,IX,Ball in Backcourt,32,160
+rule_10_section_X_chunk_084,10,VIOLATIONS AND PENALTIES,X,Swinging of Elbows,32,88
+rule_10_section_XI_chunk_085,10,VIOLATIONS AND PENALTIES,XI,Entering Basket From Below,32,61
+rule_10_section_XII_chunk_086,10,VIOLATIONS AND PENALTIES,XII,Illegal Assist in Scoring,32,95
+rule_10_section_XIII_chunk_087,10,VIOLATIONS AND PENALTIES,XIII,Traveling,32,512
+rule_10_section_XIII_chunk_088,10,VIOLATIONS AND PENALTIES,XIII,Traveling,32,119
+rule_10_section_XIV_chunk_089,10,VIOLATIONS AND PENALTIES,XIV,Offensive Screen Set Out-of-Bounds,33,79
+rule_10_section_XV_chunk_090,10,VIOLATIONS AND PENALTIES,XV,Offensive Player Out-of-Bounds,33,107
+rule_10_section_XVI_chunk_091,10,VIOLATIONS AND PENALTIES,XVI,Five-Second Back-to-the-Basket Violation,34,124
+rule_10_section_XVII_chunk_092,10,VIOLATIONS AND PENALTIES,XVII,Flopping,34,164
+rule_11_section_I_chunk_093,11,BASKET INTERFERENCE—GOALTENDING,I,A Player Shall Not:,34,512
+rule_11_section_I_chunk_094,11,BASKET INTERFERENCE—GOALTENDING,I,A Player Shall Not:,34,159
+rule_12_section_I_chunk_095,12,FOULS AND PENALTIES,I,Excessive Timeouts,35,160
+rule_12_section_II_chunk_096,12,FOULS AND PENALTIES,II,Delay-of-Game,35,412
+rule_12_section_III_chunk_097,12,FOULS AND PENALTIES,III,Number of Players,36,512
+rule_12_section_III_chunk_098,12,FOULS AND PENALTIES,III,Number of Players,36,93
+rule_12_section_IV_chunk_099,12,FOULS AND PENALTIES,IV,"Basket Ring, Backboard, or Support",36,201
+rule_12_section_V_chunk_100,12,FOULS AND PENALTIES,V,Conduct,37,512
+rule_12_section_V_chunk_101,12,FOULS AND PENALTIES,V,Conduct,37,590
+rule_12_section_V_chunk_102,12,FOULS AND PENALTIES,V,Conduct,37,312
+rule_12_section_VI_chunk_103,12,FOULS AND PENALTIES,VI,Fighting Fouls,39,175
+rule_12_section_VII_chunk_104,12,FOULS AND PENALTIES,VII,Fines,39,512
+rule_12_section_VII_chunk_105,12,FOULS AND PENALTIES,VII,Fines,39,578
+rule_12_section_VII_chunk_106,12,FOULS AND PENALTIES,VII,Fines,39,116
+rule_12_section_I_chunk_107,12,FOULS AND PENALTIES,I,Types,40,512
+rule_12_section_I_chunk_108,12,FOULS AND PENALTIES,I,Types,40,582
+rule_12_section_I_chunk_109,12,FOULS AND PENALTIES,I,Types,40,96
+rule_12_section_II_chunk_110,12,FOULS AND PENALTIES,II,By Dribbler,42,348
+rule_12_section_III_chunk_111,12,FOULS AND PENALTIES,III,By Screening,43,182
+rule_12_section_IV_chunk_112,12,FOULS AND PENALTIES,IV,Flagrant Foul,43,497
+rule_12_section_V_chunk_113,12,FOULS AND PENALTIES,V,Free Throw Penalty Situations,43,422
+rule_12_section_VI_chunk_114,12,FOULS AND PENALTIES,VI,Double Fouls,44,365
+rule_12_section_VII_chunk_115,12,FOULS AND PENALTIES,VII,Offensive Fouls,45,233
+rule_12_section_VIII_chunk_116,12,FOULS AND PENALTIES,VIII,Loose Ball Fouls,45,329
+rule_12_section_IX_chunk_117,12,FOULS AND PENALTIES,IX,Punching Fouls,46,232
+rule_12_section_X_chunk_118,12,FOULS AND PENALTIES,X,Away-From-The-Play Foul,46,484
+rule_12_section_XI_chunk_119,12,FOULS AND PENALTIES,XI,Transition Take Foul,47,416
+rule_13_section_I_chunk_120,13,INSTANT REPLAY,I,Instant Replay Review Triggers,47,512
+rule_13_section_I_chunk_121,13,INSTANT REPLAY,I,Instant Replay Review Triggers,47,583
+rule_13_section_I_chunk_122,13,INSTANT REPLAY,I,Instant Replay Review Triggers,47,250
+rule_13_section_II_chunk_123,13,INSTANT REPLAY,II,Reviewable Matters,49,512
+rule_13_section_II_chunk_124,13,INSTANT REPLAY,II,Reviewable Matters,49,590
+rule_13_section_II_chunk_125,13,INSTANT REPLAY,II,Reviewable Matters,49,576
+rule_13_section_II_chunk_126,13,INSTANT REPLAY,II,Reviewable Matters,49,587
+rule_13_section_II_chunk_127,13,INSTANT REPLAY,II,Reviewable Matters,49,581
+rule_13_section_II_chunk_128,13,INSTANT REPLAY,II,Reviewable Matters,49,578
+rule_13_section_II_chunk_129,13,INSTANT REPLAY,II,Reviewable Matters,49,587
+rule_13_section_II_chunk_130,13,INSTANT REPLAY,II,Reviewable Matters,49,593
+rule_13_section_II_chunk_131,13,INSTANT REPLAY,II,Reviewable Matters,49,589
+rule_13_section_II_chunk_132,13,INSTANT REPLAY,II,Reviewable Matters,49,450
+rule_13_section_III_chunk_133,13,INSTANT REPLAY,III,Replay Review Process,57,512
+rule_13_section_III_chunk_134,13,INSTANT REPLAY,III,Replay Review Process,57,178
+rule_14_section_I_chunk_135,14,COACH’S CHALLENGE,I,Overview,58,448
+rule_14_section_II_chunk_136,14,COACH’S CHALLENGE,II,Procedure to Initiate the Challenge,58,512
+rule_14_section_II_chunk_137,14,COACH’S CHALLENGE,II,Procedure to Initiate the Challenge,58,268
+rule_14_section_III_chunk_138,14,COACH’S CHALLENGE,III,Reviewable Matters,59,512
+rule_14_section_III_chunk_139,14,COACH’S CHALLENGE,III,Reviewable Matters,59,581
+rule_14_section_III_chunk_140,14,COACH’S CHALLENGE,III,Reviewable Matters,59,115
+rule_14_section_IV_chunk_141,14,COACH’S CHALLENGE,IV,Replay Review Process,61,276
+rule_14_section_V_chunk_142,14,COACH’S CHALLENGE,V,Impact on Timeouts,62,512
+rule_14_section_V_chunk_143,14,COACH’S CHALLENGE,V,Impact on Timeouts,62,587
+rule_14_section_V_chunk_144,14,COACH’S CHALLENGE,V,Impact on Timeouts,62,115
+rule_14_section_VI_chunk_145,14,COACH’S CHALLENGE,VI,Resumption of Play,63,512
+rule_14_section_VI_chunk_146,14,COACH’S CHALLENGE,VI,Resumption of Play,63,593
+rule_14_section_VI_chunk_147,14,COACH’S CHALLENGE,VI,Resumption of Play,63,593
+rule_14_section_VI_chunk_148,14,COACH’S CHALLENGE,VI,Resumption of Play,63,591
+rule_14_section_VI_chunk_149,14,COACH’S CHALLENGE,VI,Resumption of Play,63,593
+rule_14_section_VI_chunk_150,14,COACH’S CHALLENGE,VI,Resumption of Play,63,584
+rule_14_section_VI_chunk_151,14,COACH’S CHALLENGE,VI,Resumption of Play,63,580
+rule_14_section_VI_chunk_152,14,COACH’S CHALLENGE,VI,Resumption of Play,63,572
+rule_14_section_VI_chunk_153,14,COACH’S CHALLENGE,VI,Resumption of Play,63,580
+rule_14_section_VI_chunk_154,14,COACH’S CHALLENGE,VI,Resumption of Play,63,586
+rule_14_section_VI_chunk_155,14,COACH’S CHALLENGE,VI,Resumption of Play,63,281

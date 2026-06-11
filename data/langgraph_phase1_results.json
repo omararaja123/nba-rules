@@ -1,0 +1,7 @@
+{
+  "system": "LangGraph + LangChain",
+  "phase": "Phase 1: Top-3 Retrieval",
+  "accuracy": 55.00000000000001,
+  "perfect_answers": 0.0,
+  "timestamp": "2026-06-10T20:39:41.060252"
+}

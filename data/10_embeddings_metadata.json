@@ -1,0 +1,1402 @@
+{
+  "total_embeddings": 155,
+  "embedding_dimension": 384,
+  "model": "all-MiniLM-L6-v2",
+  "metadata": [
+    {
+      "rule_number": 1,
+      "rule_title": "COURT DIMENSIONS\u2014EQUIPMENT",
+      "section_number": "I",
+      "section_title": "Court and Dimensions",
+      "page_number": 3,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 452
+    },
+    {
+      "rule_number": 1,
+      "rule_title": "COURT DIMENSIONS\u2014EQUIPMENT",
+      "section_number": "II",
+      "section_title": "Equipment",
+      "page_number": 3,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 370
+    },
+    {
+      "rule_number": 2,
+      "rule_title": "OFFICIALS AND THEIR DUTIES",
+      "section_number": "I",
+      "section_title": "The Game Officials",
+      "page_number": 4,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 137
+    },
+    {
+      "rule_number": 2,
+      "rule_title": "OFFICIALS AND THEIR DUTIES",
+      "section_number": "II",
+      "section_title": "Duties of the Officials",
+      "page_number": 4,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 2,
+      "rule_title": "OFFICIALS AND THEIR DUTIES",
+      "section_number": "II",
+      "section_title": "Duties of the Officials",
+      "page_number": 4,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 196
+    },
+    {
+      "rule_number": 2,
+      "rule_title": "OFFICIALS AND THEIR DUTIES",
+      "section_number": "III",
+      "section_title": "Elastic Power",
+      "page_number": 5,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 44
+    },
+    {
+      "rule_number": 2,
+      "rule_title": "OFFICIALS AND THEIR DUTIES",
+      "section_number": "IV",
+      "section_title": "Different Decisions by Officials",
+      "page_number": 5,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 320
+    },
+    {
+      "rule_number": 2,
+      "rule_title": "OFFICIALS AND THEIR DUTIES",
+      "section_number": "V",
+      "section_title": "Time and Place for Decisions",
+      "page_number": 5,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 319
+    },
+    {
+      "rule_number": 2,
+      "rule_title": "OFFICIALS AND THEIR DUTIES",
+      "section_number": "VI",
+      "section_title": "Correcting Errors",
+      "page_number": 6,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 2,
+      "rule_title": "OFFICIALS AND THEIR DUTIES",
+      "section_number": "VI",
+      "section_title": "Correcting Errors",
+      "page_number": 6,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 412
+    },
+    {
+      "rule_number": 2,
+      "rule_title": "OFFICIALS AND THEIR DUTIES",
+      "section_number": "VII",
+      "section_title": "Duties of Scorers",
+      "page_number": 7,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 2,
+      "rule_title": "OFFICIALS AND THEIR DUTIES",
+      "section_number": "VII",
+      "section_title": "Duties of Scorers",
+      "page_number": 7,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 214
+    },
+    {
+      "rule_number": 2,
+      "rule_title": "OFFICIALS AND THEIR DUTIES",
+      "section_number": "VIII",
+      "section_title": "Duties of Timers",
+      "page_number": 8,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 2,
+      "rule_title": "OFFICIALS AND THEIR DUTIES",
+      "section_number": "VIII",
+      "section_title": "Duties of Timers",
+      "page_number": 8,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 118
+    },
+    {
+      "rule_number": 3,
+      "rule_title": "PLAYERS, SUBSTITUTES, AND COACHES",
+      "section_number": "I",
+      "section_title": "Team",
+      "page_number": 9,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 308
+    },
+    {
+      "rule_number": 3,
+      "rule_title": "PLAYERS, SUBSTITUTES, AND COACHES",
+      "section_number": "II",
+      "section_title": "Starting Line-Ups",
+      "page_number": 10,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 58
+    },
+    {
+      "rule_number": 3,
+      "rule_title": "PLAYERS, SUBSTITUTES, AND COACHES",
+      "section_number": "III",
+      "section_title": "The Captain",
+      "page_number": 10,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 140
+    },
+    {
+      "rule_number": 3,
+      "rule_title": "PLAYERS, SUBSTITUTES, AND COACHES",
+      "section_number": "IV",
+      "section_title": "The Coach and Others",
+      "page_number": 10,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 362
+    },
+    {
+      "rule_number": 3,
+      "rule_title": "PLAYERS, SUBSTITUTES, AND COACHES",
+      "section_number": "V",
+      "section_title": "Substitutes",
+      "page_number": 10,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 3,
+      "rule_title": "PLAYERS, SUBSTITUTES, AND COACHES",
+      "section_number": "V",
+      "section_title": "Substitutes",
+      "page_number": 10,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 372
+    },
+    {
+      "rule_number": 3,
+      "rule_title": "PLAYERS, SUBSTITUTES, AND COACHES",
+      "section_number": "VI",
+      "section_title": "Uniforms",
+      "page_number": 12,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 168
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "I",
+      "section_title": "Basket/Backboard",
+      "page_number": 12,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 181
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "II",
+      "section_title": "Dribble",
+      "page_number": 12,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 155
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "III",
+      "section_title": "The Gather",
+      "page_number": 12,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 187
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "IV",
+      "section_title": "Fouls",
+      "page_number": 12,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "IV",
+      "section_title": "Fouls",
+      "page_number": 12,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 204
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "V",
+      "section_title": "Free Throw",
+      "page_number": 13,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 49
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "VI",
+      "section_title": "Frontcourt/Backcourt",
+      "page_number": 14,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 376
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "VII",
+      "section_title": "Held Ball",
+      "page_number": 14,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 112
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "VIII",
+      "section_title": "Pivot",
+      "page_number": 14,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 128
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "IX",
+      "section_title": "Traveling",
+      "page_number": 14,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 46
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "X",
+      "section_title": "Screen",
+      "page_number": 14,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 34
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "XI",
+      "section_title": "Field Goal Attempt",
+      "page_number": 14,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 294
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "XII",
+      "section_title": "Throw-In",
+      "page_number": 15,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 66
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "XIII",
+      "section_title": "Last Two Minutes",
+      "page_number": 15,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 29
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "XIV",
+      "section_title": "Suspension of Play",
+      "page_number": 15,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 244
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "XV",
+      "section_title": "Point of Interruption",
+      "page_number": 15,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 26
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "XVI",
+      "section_title": "Team Control",
+      "page_number": 15,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 45
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "XVII",
+      "section_title": "Team Possession",
+      "page_number": 16,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 51
+    },
+    {
+      "rule_number": 4,
+      "rule_title": "DEFINITIONS",
+      "section_number": "XVIII",
+      "section_title": "Fumble",
+      "page_number": 16,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 79
+    },
+    {
+      "rule_number": 5,
+      "rule_title": "SCORING AND TIMING",
+      "section_number": "I",
+      "section_title": "Scoring",
+      "page_number": 16,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 327
+    },
+    {
+      "rule_number": 5,
+      "rule_title": "SCORING AND TIMING",
+      "section_number": "II",
+      "section_title": "Timing",
+      "page_number": 16,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 216
+    },
+    {
+      "rule_number": 5,
+      "rule_title": "SCORING AND TIMING",
+      "section_number": "III",
+      "section_title": "End of Period",
+      "page_number": 17,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 267
+    },
+    {
+      "rule_number": 5,
+      "rule_title": "SCORING AND TIMING",
+      "section_number": "IV",
+      "section_title": "Tie Score\u2014Overtime",
+      "page_number": 17,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 44
+    },
+    {
+      "rule_number": 5,
+      "rule_title": "SCORING AND TIMING",
+      "section_number": "V",
+      "section_title": "Stoppage of Timing Devices",
+      "page_number": 17,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 107
+    },
+    {
+      "rule_number": 5,
+      "rule_title": "SCORING AND TIMING",
+      "section_number": "VI",
+      "section_title": "Timeouts \u2013 Mandatory/Team",
+      "page_number": 17,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 5,
+      "rule_title": "SCORING AND TIMING",
+      "section_number": "VI",
+      "section_title": "Timeouts \u2013 Mandatory/Team",
+      "page_number": 17,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 575
+    },
+    {
+      "rule_number": 5,
+      "rule_title": "SCORING AND TIMING",
+      "section_number": "VI",
+      "section_title": "Timeouts \u2013 Mandatory/Team",
+      "page_number": 17,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 83
+    },
+    {
+      "rule_number": 5,
+      "rule_title": "SCORING AND TIMING",
+      "section_number": "VII",
+      "section_title": "Timeout Requests",
+      "page_number": 19,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 474
+    },
+    {
+      "rule_number": 5,
+      "rule_title": "SCORING AND TIMING",
+      "section_number": "VIII",
+      "section_title": "Time-In",
+      "page_number": 19,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 125
+    },
+    {
+      "rule_number": 6,
+      "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL",
+      "section_number": "I",
+      "section_title": "Start of Games/Periods and Others",
+      "page_number": 20,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 6,
+      "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL",
+      "section_number": "I",
+      "section_title": "Start of Games/Periods and Others",
+      "page_number": 20,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 323
+    },
+    {
+      "rule_number": 6,
+      "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL",
+      "section_number": "II",
+      "section_title": "Live Ball",
+      "page_number": 21,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 61
+    },
+    {
+      "rule_number": 6,
+      "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL",
+      "section_number": "III",
+      "section_title": "Ball is Alive",
+      "page_number": 21,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 66
+    },
+    {
+      "rule_number": 6,
+      "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL",
+      "section_number": "IV",
+      "section_title": "Dead Ball",
+      "page_number": 21,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 161
+    },
+    {
+      "rule_number": 6,
+      "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL",
+      "section_number": "V",
+      "section_title": "Jump Balls in Center Circle",
+      "page_number": 21,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 296
+    },
+    {
+      "rule_number": 6,
+      "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL",
+      "section_number": "VI",
+      "section_title": "Other Jump Balls",
+      "page_number": 21,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 216
+    },
+    {
+      "rule_number": 6,
+      "rule_title": "PUTTING BALL IN PLAY\u2014LIVE/DEAD BALL",
+      "section_number": "VII",
+      "section_title": "Restrictions Governing Jump Balls",
+      "page_number": 22,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 337
+    },
+    {
+      "rule_number": 7,
+      "rule_title": "SHOT CLOCK",
+      "section_number": "I",
+      "section_title": "Definition",
+      "page_number": 22,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 84
+    },
+    {
+      "rule_number": 7,
+      "rule_title": "SHOT CLOCK",
+      "section_number": "II",
+      "section_title": "Starting and Stopping of Shot Clock",
+      "page_number": 22,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 7,
+      "rule_title": "SHOT CLOCK",
+      "section_number": "II",
+      "section_title": "Starting and Stopping of Shot Clock",
+      "page_number": 22,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 300
+    },
+    {
+      "rule_number": 7,
+      "rule_title": "SHOT CLOCK",
+      "section_number": "III",
+      "section_title": "Putting Ball In Play After Violation",
+      "page_number": 23,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 65
+    },
+    {
+      "rule_number": 7,
+      "rule_title": "SHOT CLOCK",
+      "section_number": "IV",
+      "section_title": "Resetting Shot Clock",
+      "page_number": 24,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 7,
+      "rule_title": "SHOT CLOCK",
+      "section_number": "IV",
+      "section_title": "Resetting Shot Clock",
+      "page_number": 24,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 228
+    },
+    {
+      "rule_number": 8,
+      "rule_title": "OUT-OF-BOUNDS AND THROW-IN",
+      "section_number": "I",
+      "section_title": "Player",
+      "page_number": 25,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 87
+    },
+    {
+      "rule_number": 8,
+      "rule_title": "OUT-OF-BOUNDS AND THROW-IN",
+      "section_number": "II",
+      "section_title": "Ball",
+      "page_number": 25,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 379
+    },
+    {
+      "rule_number": 8,
+      "rule_title": "OUT-OF-BOUNDS AND THROW-IN",
+      "section_number": "III",
+      "section_title": "The Throw-In",
+      "page_number": 25,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 8,
+      "rule_title": "OUT-OF-BOUNDS AND THROW-IN",
+      "section_number": "III",
+      "section_title": "The Throw-In",
+      "page_number": 25,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 94
+    },
+    {
+      "rule_number": 9,
+      "rule_title": "FREE THROWS AND PENALTIES",
+      "section_number": "I",
+      "section_title": "Positions and Violations",
+      "page_number": 26,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 9,
+      "rule_title": "FREE THROWS AND PENALTIES",
+      "section_number": "I",
+      "section_title": "Positions and Violations",
+      "page_number": 26,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 589
+    },
+    {
+      "rule_number": 9,
+      "rule_title": "FREE THROWS AND PENALTIES",
+      "section_number": "I",
+      "section_title": "Positions and Violations",
+      "page_number": 26,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 569
+    },
+    {
+      "rule_number": 9,
+      "rule_title": "FREE THROWS AND PENALTIES",
+      "section_number": "II",
+      "section_title": "Shooting of Free Throw",
+      "page_number": 28,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 9,
+      "rule_title": "FREE THROWS AND PENALTIES",
+      "section_number": "II",
+      "section_title": "Shooting of Free Throw",
+      "page_number": 28,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 97
+    },
+    {
+      "rule_number": 9,
+      "rule_title": "FREE THROWS AND PENALTIES",
+      "section_number": "III",
+      "section_title": "Next Play",
+      "page_number": 29,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 109
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "I",
+      "section_title": "Out-of-Bounds",
+      "page_number": 29,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 95
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "II",
+      "section_title": "Dribble",
+      "page_number": 29,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 283
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "III",
+      "section_title": "Thrower-in",
+      "page_number": 30,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 233
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "IV",
+      "section_title": "Strike the Ball",
+      "page_number": 30,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 222
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "V",
+      "section_title": "Jump Ball",
+      "page_number": 30,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 193
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "VI",
+      "section_title": "Offensive Three-Second Rule",
+      "page_number": 31,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 232
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "VII",
+      "section_title": "Defensive Three-Second Rule",
+      "page_number": 31,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 372
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "VIII",
+      "section_title": "Eight-Second Rule",
+      "page_number": 32,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 193
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "IX",
+      "section_title": "Ball in Backcourt",
+      "page_number": 32,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 160
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "X",
+      "section_title": "Swinging of Elbows",
+      "page_number": 32,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 88
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "XI",
+      "section_title": "Entering Basket From Below",
+      "page_number": 32,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 61
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "XII",
+      "section_title": "Illegal Assist in Scoring",
+      "page_number": 32,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 95
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "XIII",
+      "section_title": "Traveling",
+      "page_number": 32,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "XIII",
+      "section_title": "Traveling",
+      "page_number": 32,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 119
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "XIV",
+      "section_title": "Offensive Screen Set Out-of-Bounds",
+      "page_number": 33,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 79
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "XV",
+      "section_title": "Offensive Player Out-of-Bounds",
+      "page_number": 33,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 107
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "XVI",
+      "section_title": "Five-Second Back-to-the-Basket Violation",
+      "page_number": 34,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 124
+    },
+    {
+      "rule_number": 10,
+      "rule_title": "VIOLATIONS AND PENALTIES",
+      "section_number": "XVII",
+      "section_title": "Flopping",
+      "page_number": 34,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 164
+    },
+    {
+      "rule_number": 11,
+      "rule_title": "BASKET INTERFERENCE\u2014GOALTENDING",
+      "section_number": "I",
+      "section_title": "A Player Shall Not:",
+      "page_number": 34,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 11,
+      "rule_title": "BASKET INTERFERENCE\u2014GOALTENDING",
+      "section_number": "I",
+      "section_title": "A Player Shall Not:",
+      "page_number": 34,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 159
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "I",
+      "section_title": "Excessive Timeouts",
+      "page_number": 35,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 160
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "II",
+      "section_title": "Delay-of-Game",
+      "page_number": 35,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 412
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "III",
+      "section_title": "Number of Players",
+      "page_number": 36,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "III",
+      "section_title": "Number of Players",
+      "page_number": 36,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 93
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "IV",
+      "section_title": "Basket Ring, Backboard, or Support",
+      "page_number": 36,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 201
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "V",
+      "section_title": "Conduct",
+      "page_number": 37,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "V",
+      "section_title": "Conduct",
+      "page_number": 37,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 590
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "V",
+      "section_title": "Conduct",
+      "page_number": 37,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 312
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "VI",
+      "section_title": "Fighting Fouls",
+      "page_number": 39,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 175
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "VII",
+      "section_title": "Fines",
+      "page_number": 39,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "VII",
+      "section_title": "Fines",
+      "page_number": 39,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 578
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "VII",
+      "section_title": "Fines",
+      "page_number": 39,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 116
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "I",
+      "section_title": "Types",
+      "page_number": 40,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "I",
+      "section_title": "Types",
+      "page_number": 40,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 582
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "I",
+      "section_title": "Types",
+      "page_number": 40,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 96
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "II",
+      "section_title": "By Dribbler",
+      "page_number": 42,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 348
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "III",
+      "section_title": "By Screening",
+      "page_number": 43,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 182
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "IV",
+      "section_title": "Flagrant Foul",
+      "page_number": 43,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 497
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "V",
+      "section_title": "Free Throw Penalty Situations",
+      "page_number": 43,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 422
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "VI",
+      "section_title": "Double Fouls",
+      "page_number": 44,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 365
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "VII",
+      "section_title": "Offensive Fouls",
+      "page_number": 45,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 233
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "VIII",
+      "section_title": "Loose Ball Fouls",
+      "page_number": 45,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 329
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "IX",
+      "section_title": "Punching Fouls",
+      "page_number": 46,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 232
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "X",
+      "section_title": "Away-From-The-Play Foul",
+      "page_number": 46,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 484
+    },
+    {
+      "rule_number": 12,
+      "rule_title": "FOULS AND PENALTIES",
+      "section_number": "XI",
+      "section_title": "Transition Take Foul",
+      "page_number": 47,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 416
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "I",
+      "section_title": "Instant Replay Review Triggers",
+      "page_number": 47,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "I",
+      "section_title": "Instant Replay Review Triggers",
+      "page_number": 47,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 583
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "I",
+      "section_title": "Instant Replay Review Triggers",
+      "page_number": 47,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 250
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "II",
+      "section_title": "Reviewable Matters",
+      "page_number": 49,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "II",
+      "section_title": "Reviewable Matters",
+      "page_number": 49,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 590
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "II",
+      "section_title": "Reviewable Matters",
+      "page_number": 49,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 576
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "II",
+      "section_title": "Reviewable Matters",
+      "page_number": 49,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 587
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "II",
+      "section_title": "Reviewable Matters",
+      "page_number": 49,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 581
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "II",
+      "section_title": "Reviewable Matters",
+      "page_number": 49,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 578
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "II",
+      "section_title": "Reviewable Matters",
+      "page_number": 49,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 587
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "II",
+      "section_title": "Reviewable Matters",
+      "page_number": 49,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 593
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "II",
+      "section_title": "Reviewable Matters",
+      "page_number": 49,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 589
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "II",
+      "section_title": "Reviewable Matters",
+      "page_number": 49,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 450
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "III",
+      "section_title": "Replay Review Process",
+      "page_number": 57,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 13,
+      "rule_title": "INSTANT REPLAY",
+      "section_number": "III",
+      "section_title": "Replay Review Process",
+      "page_number": 57,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 178
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "I",
+      "section_title": "Overview",
+      "page_number": 58,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 448
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "II",
+      "section_title": "Procedure to Initiate the Challenge",
+      "page_number": 58,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "II",
+      "section_title": "Procedure to Initiate the Challenge",
+      "page_number": 58,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 268
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "III",
+      "section_title": "Reviewable Matters",
+      "page_number": 59,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "III",
+      "section_title": "Reviewable Matters",
+      "page_number": 59,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 581
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "III",
+      "section_title": "Reviewable Matters",
+      "page_number": 59,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 115
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "IV",
+      "section_title": "Replay Review Process",
+      "page_number": 61,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 276
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "V",
+      "section_title": "Impact on Timeouts",
+      "page_number": 62,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "V",
+      "section_title": "Impact on Timeouts",
+      "page_number": 62,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 587
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "V",
+      "section_title": "Impact on Timeouts",
+      "page_number": 62,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 115
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "VI",
+      "section_title": "Resumption of Play",
+      "page_number": 63,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 512
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "VI",
+      "section_title": "Resumption of Play",
+      "page_number": 63,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 593
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "VI",
+      "section_title": "Resumption of Play",
+      "page_number": 63,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 593
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "VI",
+      "section_title": "Resumption of Play",
+      "page_number": 63,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 591
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "VI",
+      "section_title": "Resumption of Play",
+      "page_number": 63,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 593
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "VI",
+      "section_title": "Resumption of Play",
+      "page_number": 63,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 584
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "VI",
+      "section_title": "Resumption of Play",
+      "page_number": 63,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 580
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "VI",
+      "section_title": "Resumption of Play",
+      "page_number": 63,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 572
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "VI",
+      "section_title": "Resumption of Play",
+      "page_number": 63,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 580
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "VI",
+      "section_title": "Resumption of Play",
+      "page_number": 63,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 586
+    },
+    {
+      "rule_number": 14,
+      "rule_title": "COACH\u2019S CHALLENGE",
+      "section_number": "VI",
+      "section_title": "Resumption of Play",
+      "page_number": 63,
+      "source_file": "Official-2025-26-NBA-Playing-Rules.pdf",
+      "token_count": 281
+    }
+  ]
+}

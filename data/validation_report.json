@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-06-10T20:41:07.022220",
+  "stages": {
+    "chunking": {
+      "total": 128,
+      "super_chunks": 3,
+      "regular_chunks": 125,
+      "total_chars": 236176,
+      "avg_chunk_size": 1845.12,
+      "rules_covered": 14
+    },
+    "embedding": {
+      "num_embeddings": 128,
+      "embedding_dim": 384,
+      "matches_chunks": "True",
+      "has_nans": "False",
+      "has_infs": "False"
+    },
+    "hybrid": {
+      "tests": 3,
+      "correct_top1": 1,
+      "correct_top3": 2,
+      "top1_accuracy": "33.3%",
+      "top3_accuracy": "66.7%"
+    },
+    "langgraph": {
+      "initialized": "True",
+      "workflow_complete": "True"
+    }
+  },
+  "overall_status": "PASS"
+}
