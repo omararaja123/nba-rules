@@ -1,3 +1,29 @@
+# Core Dependencies
+python-dotenv==1.0.0
+
+# PDF Processing
 PyMuPDF==1.24.0
 pdfplumber==0.10.3
-python-dotenv==1.0.0
+
+# LLM & Embeddings
+anthropic>=0.7.0
+sentence-transformers>=2.2.0
+torch>=2.0
+
+# Vector Search
+faiss-cpu>=1.7.2
+numpy>=1.21.0
+
+# Keyword Search
+rank-bm25>=0.2.2
+
+# Retrieval-Augmented Generation
+langchain>=0.0.300
+langgraph>=0.0.1
+
+# Frontend
+streamlit>=1.28.0
+
+# Utilities
+python-dotenv>=1.0.0
+Pillow>=9.0.0
