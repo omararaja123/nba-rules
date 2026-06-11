@@ -1,9 +1,0 @@
-========================================================
-🧹 NBA Rules RAG Project Cleanup
-========================================================
-⚠ DRY-RUN MODE: Previewing changes without modifying files
-========================================================
-Phase 1: Deleting Sensitive Files
-========================================================
-[21:12:15] Removing sensitive configuration files...
-[21:12:15]   [DELETE] .env

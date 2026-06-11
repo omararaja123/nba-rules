@@ -1,9 +1,0 @@
-========================================================
-🧹 NBA Rules RAG Project Cleanup
-========================================================
-⚠ EXECUTE MODE: Files will be permanently deleted/archived
-========================================================
-Phase 1: Deleting Sensitive Files
-========================================================
-[21:16:03] Removing sensitive configuration files...
-[21:16:03]   [DELETED] .env
