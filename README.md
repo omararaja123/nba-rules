@@ -55,8 +55,7 @@ Open `http://localhost:8501` — start asking questions!
 | Document | Purpose | Read When |
 |----------|---------|-----------|
 | **[PROJECT_JOURNEY.md](PROJECT_JOURNEY.md)** | Detailed engineering case study (4 pages) | Want to understand how we got from 36% → 90% |
-| **[FINAL_SUBMISSION_REPORT.md](FINAL_SUBMISSION_REPORT.md)** | Technical architecture & metrics (12 pages) | Need technical deep dive for evaluation |
-| **[FINAL_SUBMISSION_SUMMARY.md](FINAL_SUBMISSION_SUMMARY.md)** | 1-page executive overview | Need quick context |
+| **[FINAL_SUBMISSION_COMBINED.md](FINAL_SUBMISSION_COMBINED.md)** | Complete technical report: architecture, performance, design decisions, optimization phases (12 pages) | Need comprehensive technical details |
 | **[STREAMLIT_SETUP.md](STREAMLIT_SETUP.md)** | Complete setup guide & troubleshooting | Having issues or want advanced config |
 
 ---
@@ -112,9 +111,9 @@ nba-rules/
 └── Documentation/
     ├── README.md (this file)
     ├── PROJECT_JOURNEY.md (detailed case study)
-    ├── FINAL_SUBMISSION_REPORT.md (technical)
-    ├── FINAL_SUBMISSION_SUMMARY.md (executive overview)
-    └── STREAMLIT_SETUP.md (setup guide)
+    ├── FINAL_SUBMISSION_COMBINED.md (comprehensive report)
+    ├── STREAMLIT_SETUP.md (setup guide)
+    └── LLM_EVAL_SETUP.md (evaluation guide)
 ```
 
 ---
@@ -146,7 +145,7 @@ A: Retrieval works offline. Generation needs Claude API (requires internet).
 
 **Want to understand the engineering journey?** Read [PROJECT_JOURNEY.md](PROJECT_JOURNEY.md) (4 pages, excellent story)
 
-**Need technical details?** Read [FINAL_SUBMISSION_REPORT.md](FINAL_SUBMISSION_REPORT.md) (12 pages, complete reference)
+**Need technical details?** Read [FINAL_SUBMISSION_COMBINED.md](FINAL_SUBMISSION_COMBINED.md) (12 pages, complete technical reference with architecture, performance analysis, and all 6 optimization phases)
 
 ---
 
